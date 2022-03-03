@@ -2,7 +2,7 @@ class Solution {
     public List<List<Integer>> fourSum(int[] num, int target) {
         
         
-         ArrayList<List<Integer>> res = new ArrayList<List<Integer>>();
+        ArrayList<List<Integer>> res = new ArrayList<List<Integer>>();
         
         if (num == null || num.length == 0)
             return res;
@@ -60,6 +60,9 @@ class Solution {
     
         return res;
         
+    }
+}
+        
         
 //         Arrays.sort(nums);
         
@@ -106,5 +109,5 @@ class Solution {
         
 //         return list;
         
-    }
-}
+//   }
+// }
