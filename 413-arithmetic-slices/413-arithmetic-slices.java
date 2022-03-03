@@ -3,10 +3,10 @@ class Solution {
         
         int curr = 0, sum = 0;
         
-        for (int i=2; i < nums.length; i++)
+        for (int i = 2; i < nums.length; i++)
         if (nums[i] - nums[i-1] == nums[i-1] - nums[i-2]) {
             
-            curr += 1;
+            curr++;
             sum += curr;
             
         } else {
