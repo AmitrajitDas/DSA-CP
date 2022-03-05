@@ -19,15 +19,15 @@ class Solution {
         Queue<TreeNode> q = new LinkedList<>();
         List<List<Integer>> wrapperList = new ArrayList<>();
         
-        if(root == null) return wrapperList;
+        if(root == null) return wrapperList; // parent array
         
         q.offer(root);
         
         while(!q.isEmpty())
         {
-            int levelNum = q.size();
+            int levelNum = q.size(); // to store the updated queue size
             
-            List<Integer> subList = new ArrayList<>();
+            List<Integer> subList = new ArrayList<>(); // to store subarrays
             
             for(int i = 0; i < levelNum; i++)
             {
