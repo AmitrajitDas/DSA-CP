@@ -10,9 +10,11 @@ class Solution {
             
         for(int i = idx; i < arr.length; i++)
         {
+            // if candidate element is greater than target break
             if(arr[i] > target)
                 break;
             
+            // debarring duplicates
             if(i > idx && arr[i] == arr[i-1])
                 continue;
             
