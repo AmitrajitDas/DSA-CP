@@ -16,7 +16,7 @@ class Solution {
         ListNode fast = head;
         ListNode slow = head;
         
-        for(int i = 1; i <= n; i++)
+        for(int i = 0; i < n; i++)
         {   
             fast = fast.next;
         }
