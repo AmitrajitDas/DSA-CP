@@ -33,8 +33,7 @@ class Solution {
             {                                
                 if(q.peek().left != null)
                     q.offer(q.peek().left);
-            
-            
+                
                 if(q.peek().right != null)
                     q.offer(q.peek().right);
                 
