@@ -35,7 +35,8 @@ class GFG {
 class Solution {
     // Function to return Breadth First Traversal of given graph.
     public ArrayList<Integer> bfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
-         ArrayList<Integer> bfs = new ArrayList<>(); 
+        
+        ArrayList<Integer> bfs = new ArrayList<>(); 
         boolean vis[] = new boolean[V]; 
         Queue<Integer> q = new LinkedList<>();
         
@@ -46,11 +47,13 @@ class Solution {
         {
             Integer node = q.poll();
             bfs.add(node); 
- 
+            
             // Get all adjacent vertices of the dequeued vertex s
-            // If a adjacent has not been visited, then mark it
+            // If a adjacent has not been visited, then mark 
             // visited and enqueue it
-            for(Integer it: adj.get(node)) {
+            
+            for(Integer it: adj.get(node))
+            {
                 if(vis[it] == false) {
                     vis[it] = true; 
                     q.add(it); 
