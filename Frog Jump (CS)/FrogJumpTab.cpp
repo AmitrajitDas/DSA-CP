@@ -1,3 +1,4 @@
+// using tabulation
 int frogJump(int n, vector<int> &heights)
 {
     vector<int> dp(n, 0);
