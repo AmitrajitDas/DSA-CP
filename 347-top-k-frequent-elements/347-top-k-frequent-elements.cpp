@@ -1,34 +1,42 @@
 class Solution {
+    
+    struct node {
+        int num;
+        int freq;
+        node(int _num, int _freq) {
+            num = _num;
+            freq = _freq; 
+        }
+    };
+    
+    struct comp {
+        // max-heap
+        bool operator() (const node& x, const node& y) {
+            return x.freq < y.freq;    
+        }
+    };
+    
 public:
-    
-    static bool comp(pair<int, int> a, pair<int, int> b) {
-        
-        if(a.second == b.second)
-            return a.first > b.first;
-            
-        return a.second > b.second;
-    }
-    
     vector<int> topKFrequent(vector<int>& nums, int k) {
         
-        map<int, int> map;
+        unordered_map<int, int> map;
         vector<int> res;
         
-        for(int i = 0; i < nums.size(); i++) {
-            
-            if (map.find(nums[i]) == map.end())
-                map[nums[i]] = 1;
-            else
-                map[nums[i]]++;
+        for(auto x : nums)
+            map[x]++;
+        
+        priority_queue<node, vector<node>, comp> pq;
+        
+        for(auto x : map)
+            pq.push(node(x.first, x.second));
+        
+        while(k--) {
+            node tmp = pq.top();
+            res.push_back(tmp.num);
+            pq.pop();
         }
         
-        vector<pair<int, int>> freq(map.begin(), map.end());
+        return res;
         
-        sort(freq.begin(), freq.end(), comp);
-            
-        for(int i = 0; i < k; i++)
-            res.push_back(freq[i].first);
-        
-        return res.size() == 0 ? nums : res;
     }
 };
