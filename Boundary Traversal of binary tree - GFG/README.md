@@ -13,7 +13,7 @@
 <br>
 <strong><span style="font-size:18px">Example 1:</span></strong></p>
 
-<pre style="position: relative;"><strong><span style="font-size:18px">Input:
+<pre><strong><span style="font-size:18px">Input:
         </span></strong><span style="font-size:18px">1 
 &nbsp;     /   \
 &nbsp;    2     3</span><strong><span style="font-size:18px">&nbsp; 
@@ -26,13 +26,13 @@ Output: </span></strong><span style="font-size:18px">1 2 4 8 9 6 7 3</span><stro
 Explanation:
 </span></strong><span style="font-size:18px"><strong><img alt="" src="https://media.geeksforgeeks.org/wp-content/uploads/20211103204119/graph4-300x300.png" style="height:300px; width:300px" class="img-responsive"></strong></span><strong><span style="font-size:18px">
 </span></strong>
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 
 <p><strong><span style="font-size:18px">Example 2:</span></strong></p>
 
-<pre style="position: relative;"><strong><span style="font-size:18px">Input:</span></strong>
+<pre><strong><span style="font-size:18px">Input:</span></strong>
 <span style="font-size:18px">&nbsp;           1
 &nbsp;          / 
 &nbsp;         2
@@ -48,7 +48,7 @@ Output: </span></strong><span style="font-size:18px">1 2 4 6 5 7 8
 </strong>As you can see we have not taken right
 subtree. See <strong>Note</strong></span>
 <span style="font-size:18px"><a href="https://contribute.geeksforgeeks.org/wp-content/uploads/boundary.png" target="_blank"><img alt="" src="https://media.geeksforgeeks.org/wp-content/uploads/20211103204646/graph1-300x300.png" style="float:left; height:300px; width:300px" class="img-responsive"></a></span>
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 
