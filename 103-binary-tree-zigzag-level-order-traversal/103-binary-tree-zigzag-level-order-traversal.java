@@ -38,8 +38,10 @@ class Solution {
                     q.offer(q.peek().right);
                 
                 // checking direction of traversal
-                if(l2r == true) ds.add(q.poll().val);
-                else ds.add(0, q.poll().val);
+                if(l2r == true) 
+                    ds.add(q.poll().val);
+                else 
+                    ds.add(0, q.poll().val);
             }
             
             //after traversing each level
