@@ -7,7 +7,6 @@ class Solution {
   public:
   
   void bfs(vector<int> &vis, vector<int> &res, vector<int> adj[], queue<int> &q) {
-      
       while(!q.empty()) {
           int temp = q.front();
           q.pop();
@@ -28,12 +27,7 @@ class Solution {
         queue<int> q;
         q.push(0);
         vis[0] = 1;
-        
-            
-                bfs(vis, res, adj, q);
-            
-        
-        
+        bfs(vis, res, adj, q);
         return res;
     }
 };
