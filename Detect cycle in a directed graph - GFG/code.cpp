@@ -1,3 +1,5 @@
+https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1#
+
 class Solution
 {
 public:
