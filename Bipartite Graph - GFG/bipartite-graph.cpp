@@ -5,7 +5,7 @@ using namespace std;
  // } Driver Code Ends
 class Solution {
 
-  bool bipartiteBfs(int src, vector < int > adj[], int color[]) {
+  bool bipartiteBfs(int src, vector < int > adj[], vector<int> &color) {
     queue < int > q;
     q.push(src);
     color[src] = 1;
@@ -27,8 +27,7 @@ class Solution {
 
   public:
     bool isBipartite(int V, vector < int > adj[]) {
-      int color[V];
-      memset(color, -1, sizeof color);
+      vector<int> color(V+1, -1);
       for (int i = 0; i < V; i++) {
         if (color[i] == -1) {
           if (!bipartiteBfs(i, adj, color)) {
