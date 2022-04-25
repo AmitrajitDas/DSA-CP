@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool dfs(int i, int color, vector<int> &colors, vector<vector<int>> &graph) {
+        // if node is already colored, then we need to check if its the same as the color we're gonna use
         if (colors[i] != -1) {
             return colors[i] == color;
         }    
