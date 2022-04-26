@@ -1,4 +1,4 @@
-Topological sort is applicable only on DAG
+## Topological sort is applicable only on DAG
 
 ### **Approach(DFS)**
 1. For each node we'll do DFS traversal.
