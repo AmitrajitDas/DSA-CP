@@ -20,14 +20,14 @@ public:
     }
     
     int rob(vector<int>& nums) {
-        
         vector<int> temp1, temp2;
         int n = nums.size();
         if(n == 1) return nums[0];
         
         for(int i = 0; i < n; i++) {
-            if(i > 0) temp1.push_back(nums[i]);
-            if(i < n - 1) temp2.push_back(nums[i]);
+            if(i > 0) temp1.push_back(nums[i]); // we'll push all elements except 1st index to temp1
+            if(i < n - 1) temp2.push_back(nums[i]); // and all elements except last index to temp2
+            // so that we don't rob from 1st and last index houses which adjacent
         }
         
         return max(maxSum(temp1), maxSum(temp2));
