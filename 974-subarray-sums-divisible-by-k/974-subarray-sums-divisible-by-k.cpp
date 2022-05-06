@@ -16,7 +16,7 @@ public:
         for(int it : prefix) {
             rem = it % k;
             if(rem < 0) rem += k;
-            if(map.find(rem) != map.end()) count += map[rem]; 
+            if(map.count(rem)) count += map[rem]; 
             map[rem]++;
         }
         
