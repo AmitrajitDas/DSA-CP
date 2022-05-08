@@ -24,7 +24,6 @@ public:
     vector<string> binaryTreePaths(TreeNode* root) {
         vector<string> result;
         if(!root) return result;
-    
         getPath(result, root, to_string(root->val));
         return result;
     }
