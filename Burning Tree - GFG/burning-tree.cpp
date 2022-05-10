@@ -91,7 +91,7 @@ class Solution {
         Node *res;
         while(!q.empty()) {
             Node* curr = q.front();
-            if(curr->data == target) res = curr;
+            if(curr->data == target) res = curr; // to get the address of target node
             q.pop();
             
             if(curr->left) {
@@ -123,6 +123,8 @@ class Solution {
             bool flag = false;
             
             for(int i = 0; i < size; i++) {
+                
+                //process adjacent nodes
                 
                 Node* curr = q.front();
                 q.pop();
