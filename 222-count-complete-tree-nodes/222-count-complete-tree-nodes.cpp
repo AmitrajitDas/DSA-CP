@@ -38,7 +38,7 @@ public:
         int lh = lHeight(root);
         int rh = rHeight(root);
         
-        if(lh==rh) return (1<<rh) - 1;
+        if(lh==rh) return (1<<lh) - 1; // if leftHeight and rightHeight is same then we'll return 2^lh - 1
         
         return 1 + countNodes(root->left) + countNodes(root->right);
     }
