@@ -6,9 +6,6 @@ class Solution {
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         int[] temp = intervals[0];
         
-        int start = intervals[0][0];
-        int end = intervals[0][1];
-        
         for(int[] it : intervals) {
             if(it[0] <= temp[1]) temp[1] = Math.max(temp[1], it[1]);
             else {
