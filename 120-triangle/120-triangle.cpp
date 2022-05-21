@@ -2,25 +2,54 @@ class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size();
-        vector<vector<int>> dp(n, vector<int> (n));
+        vector<int> next(n);
         
         for(int j = 0; j < n; j++)
-            dp[n - 1][j] = triangle[n - 1][j];
+            next[j] = triangle[n - 1][j];
         
         for(int i = n - 2; i >= 0; i--) {
+            vector<int> curr(n);
             for(int j = i; j >= 0; j--) {
                 int down = 0, diag = 0;
                 
-                down = triangle[i][j] + dp[i + 1][j];
-                diag = triangle[i][j] + dp[i + 1][j + 1];
+                down = triangle[i][j] + next[j];
+                diag = triangle[i][j] + next[j + 1];
                 
-                dp[i][j] = min(down, diag);
+                curr[j] = min(down, diag);
             }
+            
+            next = curr;
         }
         
-        return dp[0][0];
+        return next[0];
     }
 };
+
+////// TABULATION //////
+
+// class Solution {
+// public:
+//     int minimumTotal(vector<vector<int>>& triangle) {
+//         int n = triangle.size();
+//         vector<vector<int>> dp(n, vector<int> (n));
+        
+//         for(int j = 0; j < n; j++)
+//             dp[n - 1][j] = triangle[n - 1][j];
+        
+//         for(int i = n - 2; i >= 0; i--) {
+//             for(int j = i; j >= 0; j--) {
+//                 int down = 0, diag = 0;
+                
+//                 down = triangle[i][j] + dp[i + 1][j];
+//                 diag = triangle[i][j] + dp[i + 1][j + 1];
+                
+//                 dp[i][j] = min(down, diag);
+//             }
+//         }
+        
+//         return dp[0][0];
+//     }
+// };
 
 /////// MEMOIZATION //////
 
