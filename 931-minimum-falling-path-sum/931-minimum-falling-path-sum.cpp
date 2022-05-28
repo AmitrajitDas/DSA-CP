@@ -4,11 +4,11 @@ public:
     int recur(int i, int j, vector<vector<int>> &matrix, vector<vector<int>> &dp) {
         
         if(j < 0 || j >= matrix[0].size()) return 1e9;
-        if(i == 0) return matrix[0][j];
+        if(i == matrix.size() - 1) return matrix[matrix.size() - 1][j];
         if(dp[i][j] != -1) return dp[i][j];
-        int up = matrix[i][j] + recur(i - 1, j, matrix, dp);
-        int ld = matrix[i][j] + recur(i - 1, j - 1, matrix, dp);
-        int rd = matrix[i][j] + recur(i - 1, j + 1, matrix, dp);
+        int up = matrix[i][j] + recur(i + 1, j, matrix, dp);
+        int ld = matrix[i][j] + recur(i + 1, j - 1, matrix, dp);
+        int rd = matrix[i][j] + recur(i + 1, j + 1, matrix, dp);
         
         return dp[i][j] = min(up, min(ld, rd));
     }
@@ -21,13 +21,47 @@ public:
         int res = INT_MAX;
         
         for(int j = 0; j < m; j++) {
-            int temp = recur(n - 1, j, matrix, dp);
+            int temp = recur(0, j, matrix, dp);
             res = min(res, temp);
         }
         
         return res;
     }
 };
+
+/////// MEMOIZATION //////
+
+// class Solution {
+// public:
+    
+//     int recur(int i, int j, vector<vector<int>> &matrix, vector<vector<int>> &dp) {
+        
+//         if(j < 0 || j >= matrix[0].size()) return 1e9;
+//         if(i == 0) return matrix[0][j];
+//         if(dp[i][j] != -1) return dp[i][j];
+//         int up = matrix[i][j] + recur(i - 1, j, matrix, dp);
+//         int ld = matrix[i][j] + recur(i - 1, j - 1, matrix, dp);
+//         int rd = matrix[i][j] + recur(i - 1, j + 1, matrix, dp);
+        
+//         return dp[i][j] = min(up, min(ld, rd));
+//     }
+    
+//     int minFallingPathSum(vector<vector<int>>& matrix) {
+       
+//         int n = matrix.size();
+//         int m = matrix[0].size();
+//         vector<vector<int>> dp(n, vector<int>(m, -1));
+//         int res = INT_MAX;
+        
+//         for(int j = 0; j < m; j++) {
+//             int temp = recur(n - 1, j, matrix, dp);
+//             res = min(res, temp);
+//         }
+        
+//         return res;
+//     }
+// };
+
 
 /////// RECURSION ///////
 
