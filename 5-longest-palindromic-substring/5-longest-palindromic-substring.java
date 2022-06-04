@@ -1,25 +1,37 @@
-public class Solution {
-private int lo, maxLen;
+class Solution {
 
-public String longestPalindrome(String s) {
-	int len = s.length();
-	if (len < 2)
-		return s;
-	
-    for (int i = 0; i < len-1; i++) {
-     	extendPalindrome(s, i, i);  //assume odd length, try to extend Palindrome as possible
-     	extendPalindrome(s, i, i+1); //assume even length.
+    private int start, strlen;
+
+    private void findPalindrome(String str, int low, int high) {
+
+        while (low >= 0 && high < str.length() && str.charAt(low) == str.charAt(high)) {
+            low--;
+            high++;
+        }
+
+        if ((high - low - 1) > strlen) { // to get the bounds of longest palindromic substring
+            start = low + 1;
+            strlen = high - low - 1;
+        }
+
     }
-    return s.substring(lo, lo + maxLen);
-}
 
-private void extendPalindrome(String s, int j, int k) {
-	while (j >= 0 && k < s.length() && s.charAt(j) == s.charAt(k)) {
-		j--;
-		k++;
-	}
-	if (maxLen < k - j - 1) {
-		lo = j + 1;
-		maxLen = k - j - 1;
-	}
-}}
+    public String longestPalindrome(String s) {
+
+        int n = s.length();
+        
+        if(n < 2) return s;
+        
+        for (int i = 0; i < n - 1; i++) {
+
+            // we start from a particular point/points and spread sideways
+
+            // for even length palindrome
+            findPalindrome(s, i, i + 1);
+            // for odd length palindrome
+            findPalindrome(s, i, i);
+        }
+
+        return s.substring(start, start + strlen);
+    }
+}
