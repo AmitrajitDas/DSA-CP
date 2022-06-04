@@ -1,3 +1,5 @@
+// With no extra space //
+
 class Solution {
 public:
     
