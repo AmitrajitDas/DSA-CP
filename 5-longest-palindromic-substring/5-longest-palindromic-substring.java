@@ -23,13 +23,12 @@ class Solution {
         if(n < 2) return s;
         
         for (int i = 0; i < n - 1; i++) {
-
             // we start from a particular point/points and spread sideways
 
-            // for even length palindrome
-            findPalindrome(s, i, i + 1);
             // for odd length palindrome
             findPalindrome(s, i, i);
+            // for even length palindrome
+            findPalindrome(s, i, i + 1);
         }
 
         return s.substring(start, start + strlen);
