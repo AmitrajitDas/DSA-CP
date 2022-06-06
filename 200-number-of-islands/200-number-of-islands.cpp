@@ -1,10 +1,12 @@
+//////// BFS SOLUTION ///////////
+
 class Solution
 {
 public:
     int numIslands(vector<vector<char>> &grid)
     {
         int m = grid.size(), n = grid[0].size(), islands = 0;
-        int dir[] = {-1, 0, 1, 0, -1};
+        int dir[] = {-1, 0, 1, 0, -1}; // offset array for directions
 
         for (int i = 0; i < m; i++)
         {
@@ -13,7 +15,7 @@ public:
                 if (grid[i][j] == '1')
                 {
                     islands++;
-                    grid[i][j] = '0';
+                    grid[i][j] = '0'; // replace the 1s with 0s
                     queue<pair<int, int>> q;
                     q.push({i, j});
                     while (!q.empty())
@@ -22,7 +24,8 @@ public:
                         q.pop();
                         for (int k = 0; k < 4; k++)
                         {
-                            int r = p.first + dir[k], c = p.second + dir[k + 1];
+                            // adding the offsets to reach each direction from current index
+                            int r = p.first + dir[k], c = p.second + dir[k + 1]; 
                             if (r >= 0 && r < m && c >= 0 && c < n && grid[r][c] == '1')
                             {
                                 q.push({r, c});
