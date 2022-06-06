@@ -6,6 +6,7 @@ public:
 
         string prefix = strs[0];
         int n = strs.size();
+        if(n == 0) return "";
 
         for (int i = 1; i < n; i++)
         {
