@@ -1,26 +1,29 @@
 class Solution {
 public:
-    bool dfs(int i, int color, vector<int> &colors, vector<vector<int>> &graph) {
-        // if node is already colored, then we need to check if its the same as the color we're gonna use
-        if (colors[i] != -1) {
-            return colors[i] == color;
-        }    
-        
-        colors[i] = color;
-        for(auto it : graph[i]) {
-            if(!dfs(it, color^1, colors, graph)) 
-                return false;
-            
-        }
-        
-        return true;
-    }
-    
     bool isBipartite(vector<vector<int>>& graph) {
-        int v = graph.size();
-        vector<int> colors(v+1, -1);
-        for(int i = 0; i < v; i++) {
-            if(colors[i] == -1 && !dfs(i, 1, colors, graph)) return false;
+        
+        int V = graph.size();
+        vector<int> vis(V, -1);
+        
+        for(int i = 0; i < V; i++) {
+            if(vis[i] == -1) {
+                vis[i] = 0;
+                queue<int> q;
+                q.push(i);
+                
+                while(!q.empty()) {
+                    int node = q.front();
+                    q.pop();
+                    for(auto it : graph[node]) {
+                        int color = 1 - vis[node]; // alternate color
+                        if(vis[it] == -1) {
+                            q.push(it);
+                            vis[it] = color;
+                        } else if(vis[node] == vis[it]) // if any node has same color as its parent then graph is not bipartite
+                            return false; 
+                    }
+                }
+            }
         }
         
         return true;
