@@ -7,28 +7,36 @@ using namespace std;
  // } Driver Code Ends
 //User function template for C++
 
-class Solution{   
+class Solution
+{
 public:
-
-    bool f(int i, int target,vector<int> &arr, vector<vector<int>> &dp) {
-        
-        if(i == 0) return arr[i] == target;
-        if(target == 0) return true;
-        if(dp[i][target] != -1) return dp[i][target];
-        
-        bool picked = f(i - 1, target - arr[i], arr, dp);
-        bool notPicked = false;
-        if(target >= arr[i])
-            notPicked = f(i - 1, target, arr, dp);
-        
-        return dp[i][target] = picked || notPicked;
-    }
-    
-    bool isSubsetSum(vector<int>arr, int sum){
+    bool isSubsetSum(vector<int> arr, int k)
+    {
         int n = arr.size();
-        vector<vector<int>> dp(n, vector<int> (sum + 1, -1));
-        return f(n - 1, sum, arr, dp); 
-    }
+        vector<vector<bool>> dp(n,vector<bool>(k+1,false));
+        
+        for(int i=0; i<n; i++){
+            dp[i][0] = true;
+        }
+        
+        if(arr[0]<=k)
+            dp[0][arr[0]] = true;
+        
+        for(int ind = 1; ind<n; ind++){
+            for(int target= 1; target<=k; target++){
+                
+                bool notTaken = dp[ind-1][target];
+        
+                bool taken = false;
+                    if(arr[ind]<=target)
+                        taken = dp[ind-1][target-arr[ind]];
+            
+                dp[ind][target]= notTaken||taken;
+            }
+        }
+        
+        return dp[n-1][k];
+}
 };
 
 // { Driver Code Starts.
