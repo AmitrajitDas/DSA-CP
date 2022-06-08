@@ -21,7 +21,7 @@ public:
     bool detectCycle(vector<vector<int>> &adj, int n)
     {
         vector<int> visited(n, 0);
-        for (int i = 0; i < n; ++i)
+        for (int i = 0; i < n; i++)
             if (!visited[i])
                 if (detectCycle_util(adj, visited, i))
                     return true;
