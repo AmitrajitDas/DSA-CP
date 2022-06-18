@@ -3,7 +3,7 @@ public:
     
     int recurse(int n, int num, vector<int> &dp)
     {
-        if(n == 1) return n;
+        if(n <= 1) return 1;
         
         if(dp[n] != -1) return dp[n];
         
