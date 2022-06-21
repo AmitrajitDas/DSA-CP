@@ -33,7 +33,7 @@ public:
     void insert(string word) {
         Node *curr = root;
         for(char ch : word) {
-            if(!curr->containsKey(ch))
+            if(!curr->containsKey(ch)) // if current node doesn't contain key then insert
                curr->put(ch, new Node());
             
             curr = curr->get(ch); // move to reference trie
@@ -49,7 +49,7 @@ public:
             curr = curr->get(ch);
         }
         
-        return curr->isEnd();
+        return curr->isEnd(); // if isEnd is true then its the last node of a trie
     }
     
     bool startsWith(string prefix) {
