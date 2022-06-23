@@ -19,7 +19,7 @@ class Solution
             }
         }
         
-        while(!pq.empty()) {
+        while(!pq.empty()) { // removing remaining sorted elements from heap 
             res.push_back(pq.top());
             pq.pop();
         }
