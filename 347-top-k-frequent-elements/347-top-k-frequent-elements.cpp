@@ -1,42 +1,21 @@
 class Solution {
-    
-    struct node {
-        int num;
-        int freq;
-        node(int _num, int _freq) {
-            num = _num;
-            freq = _freq; 
-        }
-    };
-    
-    struct comp {
-        // max-heap
-        bool operator() (const node& x, const node& y) {
-            return x.freq < y.freq;    
-        }
-    };
-    
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
+        unordered_map<int, int> map; // we store the freq in hashmap so that we can sort by their freq in the heap
+        for(int it : nums) map[it]++;
         
-        unordered_map<int, int> map;
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; // min-heap
+        for(auto it = map.begin(); it != map.end(); it++) {
+            pq.push({it->second, it->first});
+            if(pq.size() > k) pq.pop();
+        }
+        
         vector<int> res;
-        
-        for(auto x : nums)
-            map[x]++;
-        
-        priority_queue<node, vector<node>, comp> pq;
-        
-        for(auto x : map)
-            pq.push(node(x.first, x.second));
-        
-        while(k--) {
-            node tmp = pq.top();
-            res.push_back(tmp.num);
+        while(!pq.empty()) {
+            res.push_back(pq.top().second);
             pq.pop();
         }
         
         return res;
-        
     }
 };
