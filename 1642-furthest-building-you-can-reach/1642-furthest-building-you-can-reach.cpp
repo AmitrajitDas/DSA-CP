@@ -22,10 +22,10 @@ class Solution {
           bricksUsed.push(diff);
         } else if (ladders > 0) {
           // If even bricks are insufficient, check ladders.
-          if (!bricksUsed.empty() && bricksUsed.top() > diff) { // Alert: Corner case ** 
+          if (!bricksUsed.empty() && bricksUsed.top() > diff) {
             totalBricksUsed = totalBricksUsed - bricksUsed.top() + diff;
             bricksUsed.pop();
-            bricksUsed.push(diff); // Thanks to @amanda_86
+            bricksUsed.push(diff);
           }
           ladders--;
         } else {
