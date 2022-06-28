@@ -15,7 +15,7 @@ public:
             if(j - i + 1 < K) j++;
             else if(j - i + 1 == K) {
                 res = max(sum, res);
-                sum -= Arr[i];
+                sum -= Arr[i]; // subtract the ith index to decrease window size
                 i++;
                 j++;
             }
