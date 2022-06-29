@@ -8,15 +8,15 @@ public:
         vector<int> res;
         
         while(j < s.size()) {
-            if(map.find(s[j]) != map.end()) {
+            if(map.find(s[j]) != map.end()) { // decreasing count
                 map[s[j]]--;
                 if(map[s[j]] == 0) count--;
             }
             
             if(j - i + 1 < k) j++;
             else if(j - i + 1 == k) {
-                if(count == 0) res.push_back(i);
-                if (map.find(s[i]) != map.end()){
+                if(count == 0) res.push_back(i); // if count becomes 0 it means all the occurences were found
+                if (map.find(s[i]) != map.end()){ // before we slide the window we need to restore the prev count
                     map[s[i]]++;
                     if (map[s[i]] == 1){
                         count++;
