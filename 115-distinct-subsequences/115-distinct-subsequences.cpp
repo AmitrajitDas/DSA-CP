@@ -9,21 +9,22 @@ public:
 //         if(s[i - 1] == t[j - 1]) return dp[i][j] = memoize(i - 1, j - 1, s, t, dp) + memoize(i - 1, j, s, t, dp);
 //         return dp[i][j] = memoize(i - 1, j, s, t, dp);
 //     }
+    
     int MOD = 1e9+7;
+    
     int numDistinct(string s, string t) {
         int n = s.size(), m = t.size();
-        vector<vector<int>> dp(n + 1, vector<int> (m + 1, 0));
+        vector<int> dp(m + 1, 0);
         
-        for(int i = 0; i <= n; i++) dp[i][0] = 1;
+        dp[0] = 1;
         // for(int j = 1; j <= m; j++) dp[0][j] = 0;
         
         for(int i = 1; i <= n; i++) {
-            for(int j = 1; j <= m; j++) {
-                if(s[i - 1] == t[j - 1]) dp[i][j] = (dp[i - 1][j - 1] + dp[i - 1][j])%MOD;
-                else dp[i][j] = dp[i - 1][j];
+            for(int j = m; j >= 1; j--) {
+                if(s[i - 1] == t[j - 1]) dp[j] = (dp[j - 1] + dp[j])%MOD;
             }
         }
         
-        return  dp[n][m];
+        return  dp[m];
     }
 };
