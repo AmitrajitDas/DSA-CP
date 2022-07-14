@@ -1,20 +1,30 @@
 class Solution {
 public:
     bool isMatch(string s, string p) {
-        vector<vector<bool>> dp(s.size()+1,vector<bool>(p.size()+1,0));
-        for (int j=1;j<=p.size();j++) {
-            if(p[j-1]!='*') break;
-            dp[0][j]=true;
+        int n = s.size(), m = p.size();
+        vector<vector<bool>> dp(n + 1, vector<bool>(m + 1, false));
+        
+        // base case starts
+        
+        dp[0][0] = true;
+        // for(int i = 1; i <= n; i++) dp[i][0] = false;
+        for(int j = 1; j <= m; j++) {
+            if(p[j - 1] != '*') break;
+            dp[0][j] = true;
         }
-        dp[0][0]=true;
-        for (int i=1;i<=s.size();i++) {
-            for (int j=1;j<=p.size();j++) {
-                if (s[i-1]==p[j-1]||p[j-1]=='?') dp[i][j]=dp[i-1][j-1];
-                else if (p[j-1]=='*') dp[i][j]=dp[i-1][j-1]||dp[i-1][j]||dp[i][j-1];
-                else dp[i][j]=false;
+        
+        // base case ends
+        
+        
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= m; j++) {
+                if(s[i - 1] == p[j - 1] || p[j - 1] == '?') dp[i][j] = dp[i - 1][j - 1];
+                else if(p[j - 1] == '*') dp[i][j] = dp[i - 1][j] || dp[i][j - 1];
+                else dp[i][j] = false;
             }
         }
-        return dp[s.size()][p.size()];
+        
+        return dp[n][m];
     }
 };
 
