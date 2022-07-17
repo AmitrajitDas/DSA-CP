@@ -1,30 +1,28 @@
 class Solution {
 public:
     
-    void findCombo(vector<int> &arr, int idx, vector<vector<int>> &res, vector<int> &ds, int target) {
+    void backtrack(int ind, int target, vector<int> &candidates, vector<int> &arr, vector<vector<int>> &res) {
         
-        if(idx == arr.size()) {
-            if(target == 0)
-                res.push_back(ds);
+        if(ind == candidates.size()) {
+            if(target == 0) res.push_back(arr);
             return;
         }
         
-        
-        if(arr[idx] <= target) {
-            ds.push_back(arr[idx]);
-            findCombo(arr, idx, res, ds, target - arr[idx]);
-            ds.pop_back();
-        }  
-        
-        findCombo(arr, idx + 1, res, ds, target);
+        if(candidates[ind] <= target) {
+            // pick
+            arr.push_back(candidates[ind]);
+            backtrack(ind, target - candidates[ind], candidates, arr, res);
+            arr.pop_back();
+        }
+
+        // not pick
+        backtrack(ind + 1, target, candidates, arr, res);
     }
     
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-    
-        int idx = 0;
+        vector<int> arr;
         vector<vector<int>> res;
-        vector<int> ds;
-        findCombo(candidates, idx, res, ds, target);
+        backtrack(0, target, candidates, arr, res);
         return res;
     }
 };
