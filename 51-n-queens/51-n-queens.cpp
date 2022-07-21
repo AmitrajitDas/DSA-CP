@@ -1,6 +1,6 @@
 class Solution {
   public:
-    void solve(int col, vector<string> &board, vector <vector<string>> &res, vector <int> &leftrow,                    vector<int> &upperDiagonal, vector <int> &lowerDiagonal, int n) {
+    void backtrack(int col, vector<string> &board, vector <vector<string>> &res, vector <int> &leftrow,                    vector<int> &upperDiagonal, vector <int> &lowerDiagonal, int n) {
       if (col == n) {
         res.push_back(board);
         return;
@@ -11,7 +11,7 @@ class Solution {
           leftrow[row] = 1;
           lowerDiagonal[row + col] = 1;
           upperDiagonal[n - 1 + col - row] = 1;
-          solve(col + 1, board, res, leftrow, upperDiagonal, lowerDiagonal, n);
+          backtrack(col + 1, board, res, leftrow, upperDiagonal, lowerDiagonal, n);
           board[row][col] = '.';
           leftrow[row] = 0;
           lowerDiagonal[row + col] = 0;
@@ -25,11 +25,9 @@ class Solution {
       vector<vector<string>> res;
       vector<string> board(n);
       string s(n, '.');
-      for (int i = 0; i < n; i++) {
-        board[i] = s;
-      }
+      for (int i = 0; i < n; i++) board[i] = s;
       vector<int> leftrow(n, 0), upperDiagonal(2 * n - 1, 0), lowerDiagonal(2 * n - 1, 0);
-      solve(0, board, res, leftrow, upperDiagonal, lowerDiagonal, n);
+      backtrack(0, board, res, leftrow, upperDiagonal, lowerDiagonal, n);
       return res;
     }
 };
