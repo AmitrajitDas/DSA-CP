@@ -6,18 +6,9 @@ public:
         if(count == 0 || ind == prices.size()) return 0;
         if(dp[ind][buy][count] != -1) return dp[ind][buy][count];
         
-        int profit = 0;
-        if(buy) {
-            int buy = -prices[ind] + findMaxProfit(ind + 1, 0, count, prices, dp);
-            int notBuy = findMaxProfit(ind + 1, 1, count, prices, dp);
-            profit = max(buy, notBuy);
-        } else {
-            int sell = prices[ind] + findMaxProfit(ind + 1, 1, count - 1, prices, dp);
-            int notSell = findMaxProfit(ind + 1, 0, count, prices, dp);
-            profit = max(sell, notSell);
-        }
+        if(buy) return dp[ind][buy][count] = max(-prices[ind] + findMaxProfit(ind + 1, 0, count, prices, dp), findMaxProfit(ind + 1, 1, count, prices, dp));
         
-        return dp[ind][buy][count] = profit;
+        return dp[ind][buy][count] = max(prices[ind] + findMaxProfit(ind + 1, 1, count - 1, prices, dp), findMaxProfit(ind + 1, 0, count, prices, dp));
     }
     
     int maxProfit(vector<int>& prices) {
