@@ -1,1 +1,1 @@
-we
+We will try to find a loop in the LL. If it exists we'll take another pointer temp which will point to head. Now we'll slowly make temp and slow pointer ahead by one step at a time. If they point to same node at any time that will be the starting of loop
