@@ -1,0 +1,1 @@
+We'll find the loop and start the entry node from the the next of slow or fast pointer and iterate till entry and slow/fast becomes equal while increasing the count simultaneously. If no loop is found return 0.
