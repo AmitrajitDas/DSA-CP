@@ -9,20 +9,20 @@
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        if(head == NULL || head->next == NULL) return NULL;
+        
         ListNode *slow = head, *fast = head;
         
-        while(fast->next != NULL && fast->next->next != NULL) {
+        while(fast && fast->next) {
             slow = slow->next;
             fast = fast->next->next;
-            if(slow == fast) {
-                ListNode *entry = head;
-                while(entry != slow) {
+            if(slow == fast) { // loop exists
+                ListNode *temp = head;
+                while(temp != slow) {
+                    temp = temp->next;
                     slow = slow->next;
-                    entry = entry->next;
                 }
                 
-                return entry;
+                return temp; 
             }
         }
         
