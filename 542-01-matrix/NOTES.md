@@ -1,1 +1,1 @@
-​
+Finding the 0's and marking those visited while pushing to the queue. Then searching adjacent 1's in pushing the pair of those indices and their distances from the source while filling the dist array with distances.
