@@ -17,10 +17,10 @@ public:
                 for (int sum : sums) {
                     curSum += sum;
                     set<int>::iterator it = accuSet.lower_bound(curSum - k);
-                    if (it != accuSet.end()) curMax = std::max(curMax, curSum - *it);
+                    if (it != accuSet.end()) curMax = max(curMax, curSum - *it);
                     accuSet.insert(curSum);
                 }
-                res = std::max(res, curMax);
+                res = max(res, curMax);
             }
         }
         return res;
