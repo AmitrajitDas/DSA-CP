@@ -9,7 +9,7 @@ public:
 	    int rowOffset[] = {-1, 0, +1, 0};
 	    int colOffset[] = {0, +1, 0, -1};
 	    
-	    // handling only the 1s
+	    // handling only the 0s
 	    for(int i = 0; i < n; i++) {
 	        for(int j = 0; j < m; j++) {
 	            if(grid[i][j] == 0) {
