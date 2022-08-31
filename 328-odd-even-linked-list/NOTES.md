@@ -1,1 +1,1 @@
-​
+We point odd at head and even at head.next. Then we seperate the odd nodes and even nodes. odd points to end of odd node group so odd.next is pointed evenHead to merge both the groups.
