@@ -9,6 +9,9 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+//////// BFS ///////
+
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
@@ -38,3 +41,31 @@ public:
         return res;
     }
 };
+
+//////// DFS ///////
+
+// class Solution {
+// public:
+    
+//     void dfs(TreeNode* root, int x, int y, map<int, map<int, multiset<int>>> &nodes) {
+//         if(!root) return;
+        
+//         nodes[x][y].insert(root->val);
+//         dfs(root->left, x - 1, y + 1, nodes);
+//         dfs(root->right, x + 1, y + 1, nodes);
+//     }
+    
+//     vector<vector<int>> verticalTraversal(TreeNode* root) {
+//         map<int, map<int, multiset<int>>> nodes;
+//         dfs(root, 0, 0, nodes);
+        
+//         vector<vector<int>> res;
+//         for(auto node : nodes) {
+//             vector<int> v;
+//             for(auto it : node.second) v.insert(v.end(), it.second.begin(), it.second.end());
+//             res.push_back(v);
+//         }
+        
+//         return res;
+//     }
+// };
