@@ -16,7 +16,7 @@ private:
         
         for(auto it : map) {
             if(it.second % 2) odd++;
-            if(odd > 1) return false;
+            if(odd > 1) return false; // odd-palindromes always has odd numbers of count 1
         }
         
         return true;
@@ -32,7 +32,7 @@ private:
         
         dfs(root->left, map, res);
         dfs(root->right, map, res);
-        map[root->val]--;
+        map[root->val]--; // backtrack to remove path trace
     }
 
 public:
