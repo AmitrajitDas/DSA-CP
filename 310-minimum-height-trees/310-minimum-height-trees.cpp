@@ -24,7 +24,7 @@ public:
         
         vector<int> topo;
         while(!q.empty()) {
-            topo.clear();
+            topo.clear(); // clear vector before we start traversing level by level.
             int size = q.size();
             for(int i = 0; i < size; i++) {
                 int node = q.front();
