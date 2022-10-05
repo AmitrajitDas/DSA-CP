@@ -9,24 +9,7 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class Solution {
-private:
-    void dfs(TreeNode* root, int val, int currDepth, int depth) {   
-        if(!root) return;
-        
-        if(currDepth < depth - 1) {
-            dfs(root->left, val, currDepth++, depth);
-            dfs(root->right, val, currDepth++, depth);
-        } else {
-            TreeNode *tmp = root->left;
-            root->left = new TreeNode(val);
-            root->left->left = tmp;
-            tmp = root->right;
-            root->right = new TreeNode(val);
-            root->right->right = tmp;
-        }
-    }
-        
+class Solution {        
 public:
     TreeNode* addOneRow(TreeNode* root, int val, int depth) {
         if (depth == 1) {
@@ -37,17 +20,15 @@ public:
         
         queue<TreeNode*> q;
         q.push(root);
-        int currDepth = 0;
+        int currDepth = 1;
         
         while(!q.empty()) {
-            
-            currDepth++;
             int n = q.size(); 
             while(n--) {
                 TreeNode *currNode = q.front();
                 q.pop();
                 
-                if(currDepth != depth - 1) {
+                if(currDepth < depth - 1) {
                     if(currNode->left) q.push(currNode->left);
                     if(currNode->right) q.push(currNode->right);
                 } else {
@@ -58,7 +39,9 @@ public:
                     newNode2->right = currNode->right;
                     currNode->right = newNode2;
                 }
-            } 
+            }
+            
+            currDepth++;
         }
         
         return root;
