@@ -15,7 +15,7 @@ public:
 			return a.second < b.second;
 		});
 
-		return it == map[key].begin() ? "" : prev(it)->first;
+		return it > map[key].begin() && it <= map[key].end() ? prev(it)->first : "" ;
 	}
 };
 
