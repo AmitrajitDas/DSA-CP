@@ -13,7 +13,7 @@ private:
 
 		if (dp[idx][d] != -1) return dp[idx][d];
 
-		int res = INT_MAX, leftMax = INT_MIN;
+		int res = INT_MAX, leftMax = jobDifficulty[idx];
 		for (int i = idx; i < n - d + 1; i++) {
 			leftMax = max(jobDifficulty[i], leftMax);
 			int rightMax = rec(i + 1, d - 1, jobDifficulty, dp);
