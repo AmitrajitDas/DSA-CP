@@ -1,22 +1,23 @@
 class Solution {
-private:
-    int combos(int idx, int target, vector<int> &coins, vector<vector<int>> &dp) {
-        if(idx == 0) {
-            return target % coins[idx] == 0;
-        }
-        
-        if(dp[idx][target] != -1) return dp[idx][target];
-        
-        int notPick = combos(idx - 1, target, coins, dp);
-        int pick = 0;
-        if(target >= coins[idx]) pick = combos(idx, target - coins[idx], coins, dp);
-        
-        return dp[idx][target] = notPick + pick;
-    }
 public:
     int change(int amount, vector<int>& coins) {
         int n = coins.size();
-        vector<vector<int>> dp(n, vector<int> (amount + 1, -1));
-        return combos(n - 1, amount, coins, dp);
+        vector<vector<int>> dp(n, vector<int> (amount + 1));
+        
+        for(int i = 0; i <= amount; i++) {
+                dp[0][i] = i % coins[0] == 0 ? 1 : 0;
+        }
+        
+        for(int idx = 1; idx < n; idx++) {
+            for(int target = 0; target <= amount; target++) {
+                int notPick = dp[idx - 1][target];
+                int pick = 0;
+                if(target >= coins[idx]) pick = dp[idx][target - coins[idx]];
+                
+                dp[idx][target] = notPick + pick;
+            }
+        }
+        
+        return dp[n - 1][amount];
     }
 };
