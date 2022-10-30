@@ -5,9 +5,9 @@ public:
         
         int n = grid.size(), m = grid[0].size();
         vector<vector<int>> dist(n, vector<int>(m, INT_MAX));
-        dist[0][0] = 1;
+        dist[0][0] = 0;
         queue<pair<int, pair<int, int>>> q;
-        q.push({1, {0, 0}});
+        q.push({0, {0, 0}});
         
         int drow[8] = {-1, -1, 0, 1, 1, 1, 0, -1};
         int dcol[8] = {0, 1, 1, 1, 0, -1, -1, -1};
@@ -18,7 +18,7 @@ public:
             int row = it.second.first, col = it.second.second;
             q.pop();
             
-            if(row == n-1 && col == m-1) return dis;
+            if(row == n-1 && col == m-1) return dis + 1;
             
             for(int i = 0; i < 8; i++) {
                 int nrow = row + drow[i];
