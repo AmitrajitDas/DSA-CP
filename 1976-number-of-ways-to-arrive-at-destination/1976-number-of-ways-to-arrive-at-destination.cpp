@@ -14,7 +14,7 @@ public:
         // priority queue for keep track of min distance 
         priority_queue<pair<long long, long long>, vector<pair<long long, long long>>, greater<pair<long long, long long>>> pq;
         // store the distance and number of paths
-        vector<long long> dis(n, 1e15), path(n, 0);
+        vector<long long> dis(n, 1e18), path(n, 0);
 
         // push the initial node and distance to reach start is 0
         pq.push({0, 0});
