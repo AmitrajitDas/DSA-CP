@@ -1,30 +1,32 @@
 class Solution {
-public:
-    bool valid(int rsize,int csize,int r,int c){
-        if(rsize<=r||csize<=c||c<0||r<0)return false;
+private:
+    bool isValid(int row, int col, int n, int m) {
+       if(row < 0 || col < 0 || row >= n || col >= m) return false;
         return true;
     }
-    int DFS(vector<vector<int>>& grid,int r,int c){
-        if(r==grid.size())return c;
-        if(valid(grid.size(),grid[0].size(),r,c)){
-            if(grid[r][c]==1){
-                if(valid(grid.size(),grid[0].size(),r,c+1)&&grid[r][c+1]==1){
-                    return DFS(grid,r+1,c+1);
-                }
-            }else{
-                if(valid(grid.size(),grid[0].size(),r,c-1)&&grid[r][c-1]==-1){
-                    return DFS(grid,r+1,c-1);
-                }
+    
+    int dfs(int row, int col, vector<vector<int>>& grid) {
+        if(row == grid.size()) return col;
+        
+        if(isValid(row, col, grid.size(), grid[0].size())) {
+            if(grid[row][col] == 1) {
+                if(isValid(row, col + 1, grid.size(), grid[0].size()) && grid[row][col + 1] == 1)
+                    return dfs(row + 1, col + 1, grid);
+            } else {
+                if(isValid(row, col - 1, grid.size(), grid[0].size()) && grid[row][col - 1] == -1)
+                    return dfs(row + 1, col - 1, grid);
             }
         }
+        
         return -1;
     }
-    vector<int> findBall(vector<vector<int>>& grid){
-        int row = grid.size(),col = grid[0].size();
-        vector<int>ans(col,0);
-        for(int c = 0;c<col;c++){
-            ans[c] = DFS(grid,0,c);
-        }
-    return ans;
+    
+public:
+    vector<int> findBall(vector<vector<int>>& grid) {
+        int n = grid.size(), m = grid[0].size(); 
+        vector<int> res(m, 0);
+        for(int i = 0; i < m; i++) res[i] = dfs(0, i, grid);
+        
+        return res;
     }
 };
