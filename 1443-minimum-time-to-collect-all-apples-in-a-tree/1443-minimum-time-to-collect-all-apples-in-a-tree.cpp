@@ -1,38 +1,28 @@
 class Solution {
-public:
-    unordered_map<int, vector<int>> g;
-    unordered_map<int, bool> visited;
-	
-    void createGraph(vector<vector<int>>& edges) {
-      for (auto e: edges) {
-        g[e[0]].push_back(e[1]); // adjecency list representation
-		g[e[1]].push_back(e[0]); // adjecency list representation
-      }
-    }
-  
-    int dfs(int node, int myCost, vector<bool>& hasApple) {
-	  if (visited[node]) {
-		  return 0;
-	  }
-	  visited[node] = true;
-	  
-      int childrenCost = 0; 
-      for (auto x: g[node]) { 
-        childrenCost += dfs(x, 2, hasApple); 
-      }
+private:
+    int dfs(int node, vector<int> adj[], vector<bool> &vis, vector<bool> &hasApple) {
+        int apples = 0;
+        vis[node] = true;
 
-      if (childrenCost == 0 && hasApple[node] == false) {
-	  // If no child has apples, then we won't traverse the subtree, so cost will be zero.
-	  // similarly, if current node also does not have the apple, we won't traverse this branch at all, so cost will be zero.
-        return 0;
-      }
-	  
-	  // Children has at least one apple or the current node has an apple, so add those costs.
-      return (childrenCost + myCost);
+        for(auto &it : adj[node]) {
+            if(!vis[it]) apples += dfs(it, adj, vis, hasApple);
+        }
+
+        if(node == 0) return apples;
+        if(hasApple[node] || apples > 0) apples += 2; // 2 because to reach a subtree we go and return
+
+        return apples;
     }
-  
+public:
     int minTime(int n, vector<vector<int>>& edges, vector<bool>& hasApple) {
-      createGraph(edges);
-      return dfs(0, 0, hasApple); // cost of reaching the root is 0. For all others, its 2.
+        vector<int> adj[n];
+
+        for(auto &it : edges) { // building the undirected graph
+            adj[it[0]].push_back(it[1]);
+            adj[it[1]].push_back(it[0]);
+        }
+
+        vector<bool> vis(n, false);
+        return dfs(0, adj, vis, hasApple); 
     }
 };
