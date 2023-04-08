@@ -20,27 +20,28 @@ public:
 */
 
 class Solution {
-    unordered_map<Node*, Node*> mp;
    private:
-    void dfs(Node* node, Node* cloneNode) {
+    void dfs(Node* node, Node* cloneNode, vector<Node*>& vis) {
+        vis[node->val] =
+            cloneNode;  // marking early because this will only happen in
+                        // forward exploration of sub problems
         for (Node* n : node->neighbors) {
-            if (mp.find(n) == mp.end()) {
+            if (vis[n->val] == NULL) {
                 Node* clone = new Node(n->val);  // cloned adjacent nodes
-                mp[n] = clone;
                 cloneNode->neighbors.push_back(clone);
-                dfs(n, clone);
+                dfs(n, clone, vis);
             } else
-                cloneNode->neighbors.push_back(mp[n]);
+                cloneNode->neighbors.push_back(vis[n->val]);
         }
     }
 
    public:
     Node* cloneGraph(Node* node) {
-        if(!node) return NULL;
+        if (!node) return NULL;
         Node* cloneNode = new Node(node->val);  // cloned root node
-        mp.clear();
-        mp[node] = cloneNode;
-        dfs(node, cloneNode);  // cloning neighbors recursively
+        vector<Node*> vis(101, NULL);
+        vis[node->val] = cloneNode;
+        dfs(node, cloneNode, vis);  // cloning neighbors recursively
         return cloneNode;
     }
 };
