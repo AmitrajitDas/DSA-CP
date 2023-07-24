@@ -1,3 +1,6 @@
+// Time Complexity (TC): O(log n)
+// Space Complexity (SC): O(log n)
+
 // Binary Exponentiation is an efficient algorithm for calculating
 // the power of a number 'x' raised to the power 'n'.
 class Solution {
