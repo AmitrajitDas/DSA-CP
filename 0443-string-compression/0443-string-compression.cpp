@@ -2,24 +2,25 @@ class Solution {
 public:
     int compress(vector<char>& chars) {
         int n = chars.size();
-        if(n == 1) return 1;
         int i = 0, j = 0;
 
-        while(i < n) {
-            int count = 1;
-            while(i < n - 1 && chars[i] == chars[i + 1]) {
-                i++;
+        while(j < n) {
+            char curr_char = chars[j];
+            int count = 0;
+            while(j < n && chars[j] == curr_char) { // this will track character count
+                j++;
                 count++;
             }
-            chars[j++] = chars[i++];
+            chars[i++] = curr_char; // assigning characters
             if(count > 1) {
                 string countStr = to_string(count);
-                for (char c : countStr) {
-                    chars[j++] = c;
+                // this loop will take care for double digit numbers
+                for(char ch : countStr) {
+                    chars[i++] = ch; // assigning character count as string
                 }
             }
         }
 
-        return j;
+        return i; // i will be at the next index of the last character of modified array, so i will be the length
     }
 };
