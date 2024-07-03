@@ -62,10 +62,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0001-two-sum) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0001-two-sum) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Two Pointers
 |  |
