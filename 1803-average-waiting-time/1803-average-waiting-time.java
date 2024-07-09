@@ -1,20 +1,20 @@
 class Solution {
     public double averageWaitingTime(int[][] customers) {
         int n = customers.length;
-        int timeTillNow = customers[0][0] + customers[0][1];
-        double totalTime = timeTillNow - customers[0][0];
+        double totalWaitTime = 0;
+        int currTime = 0;
 
-        for(int i = 1; i < n; i++) {
-            if(customers[i][0] < timeTillNow) {
-                timeTillNow += customers[i][1];
-            } else {
-                timeTillNow = customers[i][0] + customers[i][1];
+        for (int[] customer : customers) {
+            int arrivalTime = customer[0];
+            int cookTime = customer[1];
+            if (currTime < arrivalTime) {
+                currTime = arrivalTime;
             }
-            System.out.println(timeTillNow);
-            totalTime += (timeTillNow - customers[i][0]); 
-            System.out.println(totalTime);   
+            int waitTime = currTime + cookTime - arrivalTime;
+            totalWaitTime += waitTime;
+            currTime += cookTime;
         }
 
-        return totalTime / n;
+        return totalWaitTime / n;
     }
 }
