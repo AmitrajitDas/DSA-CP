@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/AmitrajitDas/DSA-CP/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/AmitrajitDas/DSA-CP/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/AmitrajitDas/DSA-CP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
 ## Hash Table
@@ -83,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/AmitrajitDas/DSA-CP/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/AmitrajitDas/DSA-CP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
 ## Two Pointers
@@ -132,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/AmitrajitDas/DSA-CP/tree/master/0169-majority-element) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -153,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
 ## Heap (Priority Queue)
 |  |
