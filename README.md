@@ -112,10 +112,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0273-integer-to-english-words](https://github.com/AmitrajitDas/DSA-CP/tree/master/0273-integer-to-english-words) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Recursion
 |  |
 | ------- |
+| [0273-integer-to-english-words](https://github.com/AmitrajitDas/DSA-CP/tree/master/0273-integer-to-english-words) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
@@ -159,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0273-integer-to-english-words](https://github.com/AmitrajitDas/DSA-CP/tree/master/0273-integer-to-english-words) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
