@@ -1,23 +1,22 @@
 class Solution {
     public int nthUglyNumber(int n) {
-        // TreeSet to maintain sorted order and uniqueness
-        TreeSet<Long> uglyNumbers = new TreeSet<>();
-        uglyNumbers.add(1L);  // Start with the first ugly number
+        int[] dp = new int[n];
+        dp[0] = 1; // The first ugly number is 1
 
-        long ugly = 1;  // This will hold the nth ugly number
+        int p2 = 0, p3 = 0, p5 = 0; // Pointers for multiples of 2, 3, and 5
 
-        // Generate n ugly numbers
-        for (int i = 0; i < n; i++) {
-            // Remove the smallest element (the next ugly number)
-            ugly = uglyNumbers.pollFirst();
+        for (int i = 1; i < n; i++) {
+            int nextUgly = Math.min(dp[p2] * 2, Math.min(dp[p3] * 3, dp[p5] * 5));
+            dp[i] = nextUgly;
 
-            // Generate new ugly numbers and add them to the set
-            uglyNumbers.add(ugly * 2);
-            uglyNumbers.add(ugly * 3);
-            uglyNumbers.add(ugly * 5);
+            if (nextUgly == dp[p2] * 2)
+                p2++;
+            if (nextUgly == dp[p3] * 3)
+                p3++;
+            if (nextUgly == dp[p5] * 5)
+                p5++;
         }
 
-        // The last removed element is the nth ugly number
-        return (int) ugly;
+        return dp[n - 1];
     }
 }
