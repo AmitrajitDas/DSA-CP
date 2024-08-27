@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0001-two-sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0040-combination-sum-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0040-combination-sum-ii) |
 | [0053-maximum-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/0053-maximum-subarray) |
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
