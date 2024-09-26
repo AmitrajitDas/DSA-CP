@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1786-count-the-number-of-consistent-strings](https://github.com/AmitrajitDas/DSA-CP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/AmitrajitDas/DSA-CP/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2047-find-a-peak-element-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2047-find-a-peak-element-ii) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/AmitrajitDas/DSA-CP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/AmitrajitDas/DSA-CP/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/AmitrajitDas/DSA-CP/tree/master/1646-kth-missing-positive-number) |
 | [1675-magnetic-force-between-two-balls](https://github.com/AmitrajitDas/DSA-CP/tree/master/1675-magnetic-force-between-two-balls) |
+| [2047-find-a-peak-element-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2047-find-a-peak-element-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -258,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0240-search-a-2d-matrix-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0240-search-a-2d-matrix-ii) |
 | [0870-magic-squares-in-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0921-spiral-matrix-iii) |
+| [2047-find-a-peak-element-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2047-find-a-peak-element-ii) |
 ## Design
 |  |
 | ------- |
