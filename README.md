@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1333-sort-the-jumbled-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/1333-sort-the-jumbled-numbers) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/AmitrajitDas/DSA-CP/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1435-xor-queries-of-a-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/1435-xor-queries-of-a-subarray) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/AmitrajitDas/DSA-CP/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/AmitrajitDas/DSA-CP/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/AmitrajitDas/DSA-CP/tree/master/1646-kth-missing-positive-number) |
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0731-my-calendar-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/AmitrajitDas/DSA-CP/tree/master/0859-design-circular-deque) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/AmitrajitDas/DSA-CP/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -314,4 +316,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0731-my-calendar-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0731-my-calendar-ii) |
+## Stack
+|  |
+| ------- |
+| [1497-design-a-stack-with-increment-operation](https://github.com/AmitrajitDas/DSA-CP/tree/master/1497-design-a-stack-with-increment-operation) |
 <!---LeetCode Topics End-->
