@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0540-single-element-in-a-sorted-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0540-single-element-in-a-sorted-array) |
 | [0624-maximum-distance-in-arrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/0624-maximum-distance-in-arrays) |
 | [0731-my-calendar-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0731-my-calendar-ii) |
+| [0859-design-circular-deque](https://github.com/AmitrajitDas/DSA-CP/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/AmitrajitDas/DSA-CP/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/AmitrajitDas/DSA-CP/tree/master/0907-koko-eating-bananas) |
@@ -173,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0859-design-circular-deque](https://github.com/AmitrajitDas/DSA-CP/tree/master/0859-design-circular-deque) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Simulation
 |  |
@@ -268,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0731-my-calendar-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0859-design-circular-deque](https://github.com/AmitrajitDas/DSA-CP/tree/master/0859-design-circular-deque) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -291,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0859-design-circular-deque](https://github.com/AmitrajitDas/DSA-CP/tree/master/0859-design-circular-deque) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/AmitrajitDas/DSA-CP/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Number Theory
 |  |
