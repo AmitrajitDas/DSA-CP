@@ -1,21 +1,31 @@
 class Solution {
     public long dividePlayers(int[] skill) {
         int n = skill.length;
+        
+        // Sort the skill array
         Arrays.sort(skill);
-        int i = 0, j = n - 1;
-        int totalSkill = 0;
+        
+        // Calculate the total skill of the first team
+        int targetSkill = skill[0] + skill[n - 1];
         long sum = 0;
-
-        while(i < j) {
-            System.out.println("totalSkill: " + totalSkill);
-            if(totalSkill != 0 && totalSkill != skill[i] + skill[j]) return -1;
-            totalSkill = skill[i] + skill[j];
-            int chemistry = (skill[i] * skill[j]);
-            sum += chemistry;
+        
+        // Use two-pointer technique to pair players and check for consistency
+        int i = 0, j = n - 1;
+        while (i < j) {
+            // Check if the current pair's skill matches the target skill
+            if (skill[i] + skill[j] != targetSkill) {
+                return -1; // Teams can't be formed with equal total skill
+            }
+            
+            // Calculate the chemistry (product of skills) and add to the sum
+            sum += (long) skill[i] * skill[j];
+            
+            // Move pointers towards the center
             i++;
-            j--;    
+            j--;
         }
-
+        
+        // Return the sum of chemistry of all valid teams
         return sum;
     }
 }
