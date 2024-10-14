@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2306-create-binary-tree-from-descriptions](https://github.com/AmitrajitDas/DSA-CP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/AmitrajitDas/DSA-CP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/AmitrajitDas/DSA-CP/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Hash Table
 |  |
 | ------- |
@@ -244,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0264-ugly-number-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0948-sort-an-array) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/AmitrajitDas/DSA-CP/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Merge Sort
 |  |
 | ------- |
@@ -266,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0410-split-array-largest-sum) |
 | [0624-maximum-distance-in-arrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/AmitrajitDas/DSA-CP/tree/master/0890-lemonade-change) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/AmitrajitDas/DSA-CP/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Matrix
 |  |
