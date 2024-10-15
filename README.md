@@ -131,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/AmitrajitDas/DSA-CP/tree/master/0075-sort-colors) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/AmitrajitDas/DSA-CP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [3195-separate-black-and-white-balls](https://github.com/AmitrajitDas/DSA-CP/tree/master/3195-separate-black-and-white-balls) |
 ## Binary Search
 |  |
 | ------- |
@@ -238,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1786-count-the-number-of-consistent-strings](https://github.com/AmitrajitDas/DSA-CP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
+| [3195-separate-black-and-white-balls](https://github.com/AmitrajitDas/DSA-CP/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Heap (Priority Queue)
 |  |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0624-maximum-distance-in-arrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/AmitrajitDas/DSA-CP/tree/master/0890-lemonade-change) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/AmitrajitDas/DSA-CP/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [3195-separate-black-and-white-balls](https://github.com/AmitrajitDas/DSA-CP/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Matrix
 |  |
