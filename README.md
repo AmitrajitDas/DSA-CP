@@ -174,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/AmitrajitDas/DSA-CP/tree/master/0273-integer-to-english-words) |
 | [0650-2-keys-keyboard](https://github.com/AmitrajitDas/DSA-CP/tree/master/0650-2-keys-keyboard) |
+| [0670-maximum-swap](https://github.com/AmitrajitDas/DSA-CP/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/0870-magic-squares-in-grid) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/AmitrajitDas/DSA-CP/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0410-split-array-largest-sum) |
 | [0624-maximum-distance-in-arrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/0624-maximum-distance-in-arrays) |
+| [0670-maximum-swap](https://github.com/AmitrajitDas/DSA-CP/tree/master/0670-maximum-swap) |
 | [0890-lemonade-change](https://github.com/AmitrajitDas/DSA-CP/tree/master/0890-lemonade-change) |
 | [1304-longest-happy-string](https://github.com/AmitrajitDas/DSA-CP/tree/master/1304-longest-happy-string) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/AmitrajitDas/DSA-CP/tree/master/2616-maximal-score-after-applying-k-operations) |
