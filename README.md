@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/AmitrajitDas/DSA-CP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/AmitrajitDas/DSA-CP/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Hash Table
 |  |
 | ------- |
@@ -225,6 +226,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0410-split-array-largest-sum) |
 | [0650-2-keys-keyboard](https://github.com/AmitrajitDas/DSA-CP/tree/master/0650-2-keys-keyboard) |
 | [2586-longest-square-streak-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2586-longest-square-streak-in-an-array) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Tree
 |  |
 | ------- |
@@ -302,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0870-magic-squares-in-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0921-spiral-matrix-iii) |
 | [2047-find-a-peak-element-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2047-find-a-peak-element-ii) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Design
 |  |
 | ------- |
