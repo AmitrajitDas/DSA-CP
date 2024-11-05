@@ -259,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1786-count-the-number-of-consistent-strings](https://github.com/AmitrajitDas/DSA-CP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
+| [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/AmitrajitDas/DSA-CP/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3195-separate-black-and-white-balls](https://github.com/AmitrajitDas/DSA-CP/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Heap (Priority Queue)
