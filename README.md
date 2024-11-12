@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/AmitrajitDas/DSA-CP/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/AmitrajitDas/DSA-CP/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0240-search-a-2d-matrix-ii) |
+| [0260-single-number-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0260-single-number-iii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0410-split-array-largest-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0540-single-element-in-a-sorted-array) |
@@ -337,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/0078-subsets) |
 | [0137-single-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0137-single-number-ii) |
 | [0231-power-of-two](https://github.com/AmitrajitDas/DSA-CP/tree/master/0231-power-of-two) |
+| [0260-single-number-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0260-single-number-iii) |
 | [0476-number-complement](https://github.com/AmitrajitDas/DSA-CP/tree/master/0476-number-complement) |
 | [1054-complement-of-base-10-integer](https://github.com/AmitrajitDas/DSA-CP/tree/master/1054-complement-of-base-10-integer) |
 | [1435-xor-queries-of-a-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/1435-xor-queries-of-a-subarray) |
