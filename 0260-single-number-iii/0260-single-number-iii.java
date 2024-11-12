@@ -1,21 +1,19 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        int xor2no = 0;
-        for (int num : nums) {
-            xor2no ^= num;
-        }
+        int xor = 0, rightmostSetbit = 0;
+        for(final int num : nums) xor ^= num;
 
-        int lowestBit = xor2no & (-xor2no);
+        rightmostSetbit = (xor & (xor - 1)) ^ xor;
+        int b1 = 0, b2 = 0;
 
-        int[] result = new int[2];
-        for (int num : nums) {
-            if ((lowestBit & num) == 0) {
-                result[0] ^= num;
+        for(final int num : nums) {
+            if((num & rightmostSetbit) != 0) {
+                b1 ^= num;
             } else {
-                result[1] ^= num;
+                b2 ^= num;
             }
         }
 
-        return result;
+        return new int[]{b1, b2};
     }
 }
