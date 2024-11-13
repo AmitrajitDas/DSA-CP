@@ -1,5 +1,7 @@
 class Solution {
     public int divide(int dividend, int divisor) {
+        // When dividen and divisor is same
+        if(dividend == divisor) return 1;
         // Special case: overflow when dividing Integer.MIN_VALUE by -1
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
             return Integer.MAX_VALUE;
