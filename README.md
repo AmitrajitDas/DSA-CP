@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0410-split-array-largest-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
 | [0624-maximum-distance-in-arrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/0624-maximum-distance-in-arrays) |
 | [0731-my-calendar-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
@@ -232,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/0053-maximum-subarray) |
 | [0264-ugly-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0264-ugly-number-ii) |
 | [0410-split-array-largest-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0410-split-array-largest-sum) |
+| [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
 | [0650-2-keys-keyboard](https://github.com/AmitrajitDas/DSA-CP/tree/master/0650-2-keys-keyboard) |
 | [2586-longest-square-streak-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
@@ -312,6 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0240-search-a-2d-matrix-ii) |
+| [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
 | [0870-magic-squares-in-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0921-spiral-matrix-iii) |
@@ -388,6 +391,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/AmitrajitDas/DSA-CP/tree/master/1036-rotting-oranges) |
