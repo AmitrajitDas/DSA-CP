@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/AmitrajitDas/DSA-CP/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0130-surrounded-regions](https://github.com/AmitrajitDas/DSA-CP/tree/master/0130-surrounded-regions) |
 | [0137-single-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0137-single-number-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/AmitrajitDas/DSA-CP/tree/master/0162-find-peak-element) |
@@ -258,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/AmitrajitDas/DSA-CP/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
@@ -313,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0074-search-a-2d-matrix) |
+| [0130-surrounded-regions](https://github.com/AmitrajitDas/DSA-CP/tree/master/0130-surrounded-regions) |
 | [0240-search-a-2d-matrix-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
@@ -391,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/AmitrajitDas/DSA-CP/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
@@ -400,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union Find
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/AmitrajitDas/DSA-CP/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 ## Graph
 |  |
