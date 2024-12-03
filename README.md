@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0948-sort-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0948-sort-an-array) |
 | [1036-rotting-oranges](https://github.com/AmitrajitDas/DSA-CP/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/AmitrajitDas/DSA-CP/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
 | [1333-sort-the-jumbled-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/1333-sort-the-jumbled-numbers) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/AmitrajitDas/DSA-CP/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1435-xor-queries-of-a-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/1435-xor-queries-of-a-subarray) |
@@ -263,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
+| [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## String
@@ -322,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0870-magic-squares-in-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0921-spiral-matrix-iii) |
 | [1036-rotting-oranges](https://github.com/AmitrajitDas/DSA-CP/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
 | [2047-find-a-peak-element-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2047-find-a-peak-element-ii) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Design
@@ -399,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/AmitrajitDas/DSA-CP/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Union Find
@@ -406,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0130-surrounded-regions](https://github.com/AmitrajitDas/DSA-CP/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
 ## Graph
 |  |
 | ------- |
