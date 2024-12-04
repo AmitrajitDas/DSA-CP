@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0001-two-sum) |
+| [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/AmitrajitDas/DSA-CP/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/AmitrajitDas/DSA-CP/tree/master/0169-majority-element) |
 | [0264-ugly-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0264-ugly-number-ii) |
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/AmitrajitDas/DSA-CP/tree/master/0127-word-ladder) |
 | [0273-integer-to-english-words](https://github.com/AmitrajitDas/DSA-CP/tree/master/0273-integer-to-english-words) |
 | [1304-longest-happy-string](https://github.com/AmitrajitDas/DSA-CP/tree/master/1304-longest-happy-string) |
@@ -349,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0040-combination-sum-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/0078-subsets) |
+| [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Bit Manipulation
 |  |
@@ -399,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/AmitrajitDas/DSA-CP/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/AmitrajitDas/DSA-CP/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
