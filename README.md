@@ -250,6 +250,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/AmitrajitDas/DSA-CP/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/AmitrajitDas/DSA-CP/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Binary Tree
@@ -259,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/AmitrajitDas/DSA-CP/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/AmitrajitDas/DSA-CP/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Depth-First Search
@@ -414,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/AmitrajitDas/DSA-CP/tree/master/0801-is-graph-bipartite) |
 | [1036-rotting-oranges](https://github.com/AmitrajitDas/DSA-CP/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
+| [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/AmitrajitDas/DSA-CP/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Union Find
