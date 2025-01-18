@@ -323,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0670-maximum-swap](https://github.com/AmitrajitDas/DSA-CP/tree/master/0670-maximum-swap) |
 | [0890-lemonade-change](https://github.com/AmitrajitDas/DSA-CP/tree/master/0890-lemonade-change) |
 | [1304-longest-happy-string](https://github.com/AmitrajitDas/DSA-CP/tree/master/1304-longest-happy-string) |
+| [2509-minimize-xor](https://github.com/AmitrajitDas/DSA-CP/tree/master/2509-minimize-xor) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/AmitrajitDas/DSA-CP/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3195-separate-black-and-white-balls](https://github.com/AmitrajitDas/DSA-CP/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -376,6 +377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1786-count-the-number-of-consistent-strings](https://github.com/AmitrajitDas/DSA-CP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/AmitrajitDas/DSA-CP/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2509-minimize-xor](https://github.com/AmitrajitDas/DSA-CP/tree/master/2509-minimize-xor) |
 ## Linked List
 |  |
 | ------- |
