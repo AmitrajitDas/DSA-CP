@@ -139,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1694-make-sum-divisible-by-p](https://github.com/AmitrajitDas/DSA-CP/tree/master/1694-make-sum-divisible-by-p) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/AmitrajitDas/DSA-CP/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/AmitrajitDas/DSA-CP/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/AmitrajitDas/DSA-CP/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/AmitrajitDas/DSA-CP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
@@ -237,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/AmitrajitDas/DSA-CP/tree/master/0169-majority-element) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/AmitrajitDas/DSA-CP/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/AmitrajitDas/DSA-CP/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/AmitrajitDas/DSA-CP/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Dynamic Programming
@@ -293,6 +295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1524-string-matching-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/1524-string-matching-in-an-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/AmitrajitDas/DSA-CP/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/AmitrajitDas/DSA-CP/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/AmitrajitDas/DSA-CP/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/AmitrajitDas/DSA-CP/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
