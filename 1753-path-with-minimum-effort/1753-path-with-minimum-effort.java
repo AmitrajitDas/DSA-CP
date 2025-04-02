@@ -9,7 +9,7 @@ class Solution {
 
         // Priority queue to store cells based on the minimum effort (difference in heights)
         // Each element in the queue is an array: [row, column, current effort]
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[2] - b[2]);
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
 
         // 2D array to store the minimum effort required to reach each cell
         int[][] dist = new int[n][m];
@@ -27,9 +27,10 @@ class Solution {
         while (!pq.isEmpty()) {
             // Poll the cell with the smallest effort
             int[] curr = pq.poll();
-            int row = curr[0]; // Current row
-            int col = curr[1]; // Current column
-            int diff = curr[2]; // Current effort to reach this cell
+            int diff = curr[0]; // Current effort to reach this cell
+            int row = curr[1]; // Current row
+            int col = curr[2]; // Current column
+            
 
             // If we reach the bottom-right cell, return the effort
             if (row == n - 1 && col == m - 1) {
@@ -52,7 +53,7 @@ class Solution {
                         // Update the minimum effort for this cell
                         dist[nrow][ncol] = effort;
                         // Add the new cell to the priority queue
-                        pq.add(new int[]{nrow, ncol, effort});
+                        pq.add(new int[]{effort, nrow, ncol});
                     }
                 }
             }
