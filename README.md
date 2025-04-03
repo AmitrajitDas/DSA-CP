@@ -262,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0410-split-array-largest-sum) |
 | [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
 | [0650-2-keys-keyboard](https://github.com/AmitrajitDas/DSA-CP/tree/master/0650-2-keys-keyboard) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2586-longest-square-streak-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Tree
@@ -293,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/AmitrajitDas/DSA-CP/tree/master/0801-is-graph-bipartite) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/AmitrajitDas/DSA-CP/tree/master/0820-find-eventual-safe-states) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
@@ -321,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0264-ugly-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0264-ugly-number-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0948-sort-an-array) |
 | [1304-longest-happy-string](https://github.com/AmitrajitDas/DSA-CP/tree/master/1304-longest-happy-string) |
 | [1753-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1753-path-with-minimum-effort) |
@@ -458,6 +461,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/AmitrajitDas/DSA-CP/tree/master/0801-is-graph-bipartite) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/AmitrajitDas/DSA-CP/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/AmitrajitDas/DSA-CP/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
@@ -482,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/AmitrajitDas/DSA-CP/tree/master/0801-is-graph-bipartite) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/AmitrajitDas/DSA-CP/tree/master/0820-find-eventual-safe-states) |
 ## String Matching
 |  |
@@ -499,4 +504,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2478-longest-nice-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/2478-longest-nice-subarray) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/AmitrajitDas/DSA-CP/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+## Shortest Path
+|  |
+| ------- |
+| [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
