@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/AmitrajitDas/DSA-CP/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/AmitrajitDas/DSA-CP/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1646-kth-missing-positive-number](https://github.com/AmitrajitDas/DSA-CP/tree/master/1646-kth-missing-positive-number) |
+| [1656-count-good-triplets](https://github.com/AmitrajitDas/DSA-CP/tree/master/1656-count-good-triplets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/AmitrajitDas/DSA-CP/tree/master/1675-magnetic-force-between-two-balls) |
 | [1694-make-sum-divisible-by-p](https://github.com/AmitrajitDas/DSA-CP/tree/master/1694-make-sum-divisible-by-p) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/AmitrajitDas/DSA-CP/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -453,6 +454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 |  |
 | ------- |
+| [1656-count-good-triplets](https://github.com/AmitrajitDas/DSA-CP/tree/master/1656-count-good-triplets) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Breadth-First Search
 |  |
