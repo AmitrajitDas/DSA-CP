@@ -314,6 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/AmitrajitDas/DSA-CP/tree/master/0038-count-and-say) |
 | [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/AmitrajitDas/DSA-CP/tree/master/0127-word-ladder) |
 | [0273-integer-to-english-words](https://github.com/AmitrajitDas/DSA-CP/tree/master/0273-integer-to-english-words) |
