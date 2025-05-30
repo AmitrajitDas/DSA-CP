@@ -139,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/AmitrajitDas/DSA-CP/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/AmitrajitDas/DSA-CP/tree/master/0169-majority-element) |
@@ -325,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0038-count-and-say](https://github.com/AmitrajitDas/DSA-CP/tree/master/0038-count-and-say) |
 | [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/AmitrajitDas/DSA-CP/tree/master/0127-word-ladder) |
@@ -530,6 +532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2478-longest-nice-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/2478-longest-nice-subarray) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/2626-count-the-number-of-good-subarrays) |
