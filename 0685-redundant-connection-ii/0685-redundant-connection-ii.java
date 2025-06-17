@@ -62,7 +62,6 @@ class Solution {
         int[] candidate2 = null;  // Fixed: proper initialization
         DisjointSet ds = new DisjointSet(n);  // Fixed: pass n instead of n+1
         
-        // Fixed: removed incorrect Arrays.fill call
         // parent array is already initialized to 0 by default
         
         // First pass: identify node with two parents
@@ -87,7 +86,7 @@ class Solution {
             if(ds.findParent(u) == ds.findParent(v)) {
                 // Cycle detected
                 if(candidate1 == null) {
-                    return new int[]{u, v};  // Fixed: proper array creation
+                    return new int[]{u, v};
                 } else {
                     return candidate1;
                 }
