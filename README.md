@@ -342,6 +342,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/AmitrajitDas/DSA-CP/tree/master/0127-word-ladder) |
 | [0273-integer-to-english-words](https://github.com/AmitrajitDas/DSA-CP/tree/master/0273-integer-to-english-words) |
 | [0721-accounts-merge](https://github.com/AmitrajitDas/DSA-CP/tree/master/0721-accounts-merge) |
+| [1058-lexicographically-smallest-equivalent-string](https://github.com/AmitrajitDas/DSA-CP/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1304-longest-happy-string](https://github.com/AmitrajitDas/DSA-CP/tree/master/1304-longest-happy-string) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1524-string-matching-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/1524-string-matching-in-an-array) |
@@ -521,6 +522,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0685-redundant-connection-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0685-redundant-connection-ii) |
 | [0721-accounts-merge](https://github.com/AmitrajitDas/DSA-CP/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/AmitrajitDas/DSA-CP/tree/master/0801-is-graph-bipartite) |
+| [1058-lexicographically-smallest-equivalent-string](https://github.com/AmitrajitDas/DSA-CP/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/AmitrajitDas/DSA-CP/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1753-path-with-minimum-effort) |
