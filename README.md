@@ -294,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -306,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -320,6 +322,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/AmitrajitDas/DSA-CP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/AmitrajitDas/DSA-CP/tree/master/0684-redundant-connection) |
 | [0685-redundant-connection-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0685-redundant-connection-ii) |
@@ -499,6 +502,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/AmitrajitDas/DSA-CP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
 | [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/AmitrajitDas/DSA-CP/tree/master/0684-redundant-connection) |
