@@ -294,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0098-validate-binary-search-tree) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -307,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0098-validate-binary-search-tree) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -320,6 +322,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0079-word-search](https://github.com/AmitrajitDas/DSA-CP/tree/master/0079-word-search) |
+| [0098-validate-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0098-validate-binary-search-tree) |
 | [0130-surrounded-regions](https://github.com/AmitrajitDas/DSA-CP/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/AmitrajitDas/DSA-CP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0210-course-schedule-ii) |
@@ -432,6 +435,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0098-validate-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
