@@ -1,22 +1,4 @@
-class Solution {
-    private int explorePaths(int i, int j, int m, int n, int[][] dp) {
-        // Base case: reached destination
-        if(i == m - 1 && j == n - 1) return 1;
-        
-        // Base case: out of bounds
-        if(i >= m || j >= n) return 0;
-        
-        // Check if already computed
-        if(dp[i][j] != -1) return dp[i][j];
-        
-        // Compute and store result
-        int down = explorePaths(i + 1, j, m, n, dp);
-        int right = explorePaths(i, j + 1, m, n, dp);
-        
-        dp[i][j] = down + right;
-        return dp[i][j];
-    }
-    
+class Solution {    
     public int uniquePaths(int m, int n) {
         // Initialize memoization table with -1 (uncomputed)
         int[][] dp = new int[m][n];
