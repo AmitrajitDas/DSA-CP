@@ -287,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/AmitrajitDas/DSA-CP/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/AmitrajitDas/DSA-CP/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/0053-maximum-subarray) |
 | [0095-unique-binary-search-trees-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
@@ -395,6 +396,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/AmitrajitDas/DSA-CP/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/AmitrajitDas/DSA-CP/tree/master/0006-zigzag-conversion) |
+| [0022-generate-parentheses](https://github.com/AmitrajitDas/DSA-CP/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/AmitrajitDas/DSA-CP/tree/master/0038-count-and-say) |
 | [0079-word-search](https://github.com/AmitrajitDas/DSA-CP/tree/master/0079-word-search) |
 | [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
@@ -494,6 +496,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/AmitrajitDas/DSA-CP/tree/master/0022-generate-parentheses) |
 | [0040-combination-sum-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/AmitrajitDas/DSA-CP/tree/master/0079-word-search) |
