@@ -230,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0029-divide-two-integers) |
+| [0062-unique-paths](https://github.com/AmitrajitDas/DSA-CP/tree/master/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
 | [0231-power-of-two](https://github.com/AmitrajitDas/DSA-CP/tree/master/0231-power-of-two) |
 | [0264-ugly-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0264-ugly-number-ii) |
@@ -289,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/AmitrajitDas/DSA-CP/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/AmitrajitDas/DSA-CP/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/AmitrajitDas/DSA-CP/tree/master/0062-unique-paths) |
 | [0095-unique-binary-search-trees-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -653,4 +655,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/AmitrajitDas/DSA-CP/tree/master/1986-largest-color-value-in-a-directed-graph) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/AmitrajitDas/DSA-CP/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
