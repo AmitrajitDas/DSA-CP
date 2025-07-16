@@ -1,25 +1,31 @@
 class Solution {
-    private void generate(int opened, int closed, int n, StringBuilder sb, List<String> res) {
-        if(opened == n && closed == n) {
-            res.add(sb.toString());
-        }
-
-        if(opened < n) {
-            sb.append('(');
-            generate(opened + 1, closed, n, sb, res);
-            sb.deleteCharAt(sb.length() - 1); // backtrack
-        }
-        if(closed < opened) {
-            sb.append(')');
-            generate(opened, closed + 1, n, sb, res);
-            sb.deleteCharAt(sb.length() - 1); // backtrack
-        } 
-    }
 
     public List<String> generateParenthesis(int n) {
-        StringBuilder sb = new StringBuilder();
-        List<String> res = new ArrayList<>();
-        generate(0, 0, n, sb, res);
-        return res;
+        // dp[i] stores all valid combinations for i pairs of parentheses
+        List<List<String>> dp = new ArrayList<>();
+        
+        // Base case: 0 pairs = empty string
+        dp.add(Arrays.asList(""));
+        
+        // Build up from 1 to n pairs
+        for (int i = 1; i <= n; i++) {
+            List<String> current = new ArrayList<>();
+            
+            // For each way to split i pairs into left and right parts
+            for (int left = 0; left < i; left++) {
+                int right = i - 1 - left;
+                
+                // Combine all possibilities from left and right parts
+                for (String leftPart : dp.get(left)) {
+                    for (String rightPart : dp.get(right)) {
+                        current.add("(" + leftPart + ")" + rightPart);
+                    }
+                }
+            }
+            
+            dp.add(current);
+        }
+        
+        return dp.get(n);
     }
 }
