@@ -1,21 +1,45 @@
-class Solution {    
+class Solution {
     public int uniquePaths(int m, int n) {
-        // Initialize memoization table with -1 (uncomputed)
         int[][] dp = new int[m][n];
-        dp[m - 1][n - 1] = 1;
-
-        for(int i = m - 1; i >= 0; i--) {
-            for(int j = n - 1; j >= 0; j--) {
-                if (i == m - 1 && j == n - 1) continue;
-                int down = i + 1 < m ? dp[i + 1][j] : 0;
-                int right = j + 1 < n ? dp[i][j + 1] : 0;
-                dp[i][j] = down + right;
+        
+        // Initialize last row and last column to 1
+        // There's only one way to reach destination from these cells
+        for(int i = 0; i < m; i++) {
+            dp[i][n - 1] = 1;  // Last column
+        }
+        for(int j = 0; j < n; j++) {
+            dp[m - 1][j] = 1;  // Last row
+        }
+        
+        // Fill the dp table from bottom-right to top-left
+        for(int i = m - 2; i >= 0; i--) {
+            for(int j = n - 2; j >= 0; j--) {
+                dp[i][j] = dp[i + 1][j] + dp[i][j + 1];
             }
         }
-
+        
         return dp[0][0];
     }
 }
+
+// class Solution {    
+//     public int uniquePaths(int m, int n) {
+//         // Initialize memoization table with -1 (uncomputed)
+//         int[][] dp = new int[m][n];
+//         dp[m - 1][n - 1] = 1;
+
+//         for(int i = m - 1; i >= 0; i--) {
+//             for(int j = n - 1; j >= 0; j--) {
+//                 if (i == m - 1 && j == n - 1) continue;
+//                 int down = i + 1 < m ? dp[i + 1][j] : 0;
+//                 int right = j + 1 < n ? dp[i][j + 1] : 0;
+//                 dp[i][j] = down + right;
+//             }
+//         }
+
+//         return dp[0][0];
+//     }
+// }
 
 
 // class Solution {
