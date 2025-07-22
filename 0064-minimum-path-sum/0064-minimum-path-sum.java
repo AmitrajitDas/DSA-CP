@@ -12,12 +12,20 @@ class Solution {
     public int minPathSum(int[][] grid) {
         int m = grid.length, n = grid[0].length;
         int[][] dp = new int[m][n];
-        for(int i = 0; i < m; i++) {
-            for(int j = 0; j < n; j++) {
-                dp[i][j] = -1;
-            }
-        }
+        dp[m - 1][n - 1] = grid[m - 1][n - 1];
 
-        return dfs(0, 0, m, n, dp, grid);
+        for (int i = m - 1; i >= 0; i--) {
+			for (int j = n - 1; j >= 0; j--) {
+				if(i == m - 1 && j == n - 1) continue;
+				else {
+					int right = 0, down = 0;
+					right = grid[i][j] + (j + 1 < n ? dfs(i, j + 1, m, n, dp, grid) : 100000);
+                    down = grid[i][j] + (i + 1 < m ? dfs(i + 1, j, m, n, dp, grid) : 100000);
+					dp[i][j] = Math.min(right, down);
+				}
+			}
+		}
+
+		return dp[0][0];
     }
 }
