@@ -295,6 +295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/AmitrajitDas/DSA-CP/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0064-minimum-path-sum) |
+| [0072-edit-distance](https://github.com/AmitrajitDas/DSA-CP/tree/master/0072-edit-distance) |
 | [0095-unique-binary-search-trees-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -404,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0006-zigzag-conversion](https://github.com/AmitrajitDas/DSA-CP/tree/master/0006-zigzag-conversion) |
 | [0022-generate-parentheses](https://github.com/AmitrajitDas/DSA-CP/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/AmitrajitDas/DSA-CP/tree/master/0038-count-and-say) |
+| [0072-edit-distance](https://github.com/AmitrajitDas/DSA-CP/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/AmitrajitDas/DSA-CP/tree/master/0079-word-search) |
 | [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/AmitrajitDas/DSA-CP/tree/master/0127-word-ladder) |
