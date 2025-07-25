@@ -1,20 +1,17 @@
 class Solution {
-    private int memo(int i, int n, int[] nums, int[] dp) {
-        if(i >= n) return 0;
-        if(i == n - 1) return nums[i];
-        if(dp[i] != -1) return dp[i];
-
-        int pick = nums[i] + memo(i + 2, n, nums, dp);
-        int notPick = memo(i + 1, n, nums, dp);
-
-        return dp[i] = Math.max(pick, notPick);
-    }
-
     public int rob(int[] nums) {
         int n = nums.length;
-        int[] dp = new int[n];
-        Arrays.fill(dp, -1);
+        int[] dp = new int[n + 1];
 
-        return memo(0, n, nums, dp);
+        dp[n - 1] = nums[n - 1];
+
+        for(int i = n - 2; i >= 0; i--) {
+            int pick = nums[i] + dp[i + 2];
+            int notPick = dp[i + 1];
+
+            dp[i] = Math.max(pick, notPick);
+        }
+
+        return dp[0];
     }
 }
