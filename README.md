@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/AmitrajitDas/DSA-CP/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/AmitrajitDas/DSA-CP/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/AmitrajitDas/DSA-CP/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0213-house-robber-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0260-single-number-iii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -302,6 +303,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/AmitrajitDas/DSA-CP/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0213-house-robber-ii) |
 | [0264-ugly-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0264-ugly-number-ii) |
 | [0410-split-array-largest-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0416-partition-equal-subset-sum) |
