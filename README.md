@@ -102,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0907-koko-eating-bananas](https://github.com/AmitrajitDas/DSA-CP/tree/master/0907-koko-eating-bananas) |
 | [0921-spiral-matrix-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0948-sort-an-array) |
+| [0967-minimum-falling-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/AmitrajitDas/DSA-CP/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/AmitrajitDas/DSA-CP/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
@@ -312,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
 | [0650-2-keys-keyboard](https://github.com/AmitrajitDas/DSA-CP/tree/master/0650-2-keys-keyboard) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0967-minimum-falling-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0967-minimum-falling-path-sum) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/AmitrajitDas/DSA-CP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/AmitrajitDas/DSA-CP/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -482,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
 | [0870-magic-squares-in-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0921-spiral-matrix-iii) |
+| [0967-minimum-falling-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/AmitrajitDas/DSA-CP/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/1171-shortest-path-in-binary-matrix) |
