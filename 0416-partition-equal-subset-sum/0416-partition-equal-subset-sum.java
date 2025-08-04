@@ -2,50 +2,43 @@ class Solution {
     public boolean canPartition(int[] nums) {
         int n = nums.length;
         
-        // Calculate total sum of array
+        // Calculate total sum of all elements
         int sum = Arrays.stream(nums).sum();
         
-        // If sum is odd, equal partition is impossible
+        // If sum is odd, we cannot partition into two equal subsets
         if (sum % 2 != 0) {
             return false;
         }
         
-        // Our target is half of the total sum
-        int k = sum / 2;
+        // Target sum for each subset (half of total sum)
+        int target = sum / 2;
         
-        // Initialize dp table
-        // dp[i][j] represents whether we can form a sum of j using elements up to index i
-        boolean[][] dp = new boolean[n][k + 1];
+        // DP table: dp[i][j] = can we achieve sum j using elements from index i to n-1
+        boolean[][] dp = new boolean[n + 1][target + 1]; // Fixed: was int instead of boolean
         
-        // Base case: It's always possible to form a sum of 0 (by taking no elements)
-        for (int i = 0; i < n; i++) {
+        // Base case: sum 0 is always achievable (by taking no elements)
+        for (int i = 0; i <= n; i++) { // Fixed: should go up to n (inclusive)
             dp[i][0] = true;
         }
         
-        // Special case for the first element
-        // If the first element is less than or equal to k, we can form that sum
-        if (nums[0] <= k) {
-            dp[0][nums[0]] = true;
-        }
-        
-        // Fill the dp table using bottom-up approach
-        for (int idx = 1; idx < n; idx++) {
-            for (int target = 1; target <= k; target++) {
-                // Option 1: Skip the current element (use result from previous row)
-                boolean notTaken = dp[idx - 1][target];
+        // Fill DP table from bottom-up (last element to first)
+        for(int i = n - 1; i >= 0; i--) {
+            for(int j = 0; j <= target; j++) {
+                // Option 1: Don't take current element nums[i]
+                boolean notTake = dp[i + 1][j];
                 
-                // Option 2: Include the current element if possible
-                boolean taken = false;
-                if (nums[idx] <= target) {
-                    taken = dp[idx - 1][target - nums[idx]];
+                // Option 2: Take current element nums[i] (if possible)
+                boolean take = false;
+                if(nums[i] <= j) {
+                    take = dp[i + 1][j - nums[i]];
                 }
                 
-                // Can form the target if either option works
-                dp[idx][target] = notTaken || taken;
+                // Current state is true if either option works
+                dp[i][j] = take || notTake;
             }
         }
         
-        // Final answer is whether we can form sum k using all elements
-        return dp[n - 1][k];
+        // Answer: can we achieve target sum using all elements (starting from index 0)
+        return dp[0][target];
     }
 }
