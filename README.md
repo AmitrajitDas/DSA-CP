@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1951-find-the-winner-of-the-circular-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2047-find-a-peak-element-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2047-find-a-peak-element-ii) |
 | [2145-grid-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/2145-grid-game) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AmitrajitDas/DSA-CP/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/AmitrajitDas/DSA-CP/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/AmitrajitDas/DSA-CP/tree/master/0005-longest-palindromic-substring) |
 | [0075-sort-colors](https://github.com/AmitrajitDas/DSA-CP/tree/master/0075-sort-colors) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AmitrajitDas/DSA-CP/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2551-apply-operations-to-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2551-apply-operations-to-an-array) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/AmitrajitDas/DSA-CP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -211,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/AmitrajitDas/DSA-CP/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2047-find-a-peak-element-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2047-find-a-peak-element-ii) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AmitrajitDas/DSA-CP/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2586-longest-square-streak-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2586-longest-square-streak-in-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/AmitrajitDas/DSA-CP/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -317,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/AmitrajitDas/DSA-CP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/AmitrajitDas/DSA-CP/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AmitrajitDas/DSA-CP/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2586-longest-square-streak-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Tree
@@ -537,6 +541,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1054-complement-of-base-10-integer](https://github.com/AmitrajitDas/DSA-CP/tree/master/1054-complement-of-base-10-integer) |
 | [1435-xor-queries-of-a-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/AmitrajitDas/DSA-CP/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AmitrajitDas/DSA-CP/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/AmitrajitDas/DSA-CP/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2478-longest-nice-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/2478-longest-nice-subarray) |
@@ -573,6 +578,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0731-my-calendar-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0731-my-calendar-ii) |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AmitrajitDas/DSA-CP/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Stack
 |  |
 | ------- |
@@ -678,4 +684,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/AmitrajitDas/DSA-CP/tree/master/0062-unique-paths) |
+## Bitmask
+|  |
+| ------- |
+| [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AmitrajitDas/DSA-CP/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 <!---LeetCode Topics End-->
