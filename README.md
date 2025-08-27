@@ -239,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/AmitrajitDas/DSA-CP/tree/master/0007-reverse-integer) |
 | [0029-divide-two-integers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0029-divide-two-integers) |
 | [0062-unique-paths](https://github.com/AmitrajitDas/DSA-CP/tree/master/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
