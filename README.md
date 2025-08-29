@@ -419,6 +419,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/AmitrajitDas/DSA-CP/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/AmitrajitDas/DSA-CP/tree/master/0006-zigzag-conversion) |
+| [0008-string-to-integer-atoi](https://github.com/AmitrajitDas/DSA-CP/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/AmitrajitDas/DSA-CP/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/AmitrajitDas/DSA-CP/tree/master/0038-count-and-say) |
 | [0072-edit-distance](https://github.com/AmitrajitDas/DSA-CP/tree/master/0072-edit-distance) |
