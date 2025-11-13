@@ -156,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0012-integer-to-roman](https://github.com/AmitrajitDas/DSA-CP/tree/master/0012-integer-to-roman) |
 | [0036-valid-sudoku](https://github.com/AmitrajitDas/DSA-CP/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/AmitrajitDas/DSA-CP/tree/master/0037-sudoku-solver) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -247,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/AmitrajitDas/DSA-CP/tree/master/0007-reverse-integer) |
+| [0012-integer-to-roman](https://github.com/AmitrajitDas/DSA-CP/tree/master/0012-integer-to-roman) |
 | [0029-divide-two-integers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0029-divide-two-integers) |
 | [0062-unique-paths](https://github.com/AmitrajitDas/DSA-CP/tree/master/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
@@ -434,6 +436,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0006-zigzag-conversion](https://github.com/AmitrajitDas/DSA-CP/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/AmitrajitDas/DSA-CP/tree/master/0008-string-to-integer-atoi) |
 | [0010-regular-expression-matching](https://github.com/AmitrajitDas/DSA-CP/tree/master/0010-regular-expression-matching) |
+| [0012-integer-to-roman](https://github.com/AmitrajitDas/DSA-CP/tree/master/0012-integer-to-roman) |
 | [0022-generate-parentheses](https://github.com/AmitrajitDas/DSA-CP/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/AmitrajitDas/DSA-CP/tree/master/0038-count-and-say) |
 | [0072-edit-distance](https://github.com/AmitrajitDas/DSA-CP/tree/master/0072-edit-distance) |
