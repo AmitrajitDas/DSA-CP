@@ -14,16 +14,23 @@
  * }
  */
 class Solution {
-    int sum = 0;
-    private void convert(TreeNode curr) {
-        if(curr == null) return;
-        convert(curr.right);
+    private int convert(TreeNode curr, int sum) {
+        if(curr == null) return sum;
+        
+        // Process right subtree first (larger values)
+        sum = convert(curr.right, sum);
+        
+        // Update current node
         curr.val += sum;
         sum = curr.val;
-        convert(curr.left);
+        
+        // Process left subtree (smaller values)
+        sum = convert(curr.left, sum);
+        
+        return sum;
     }
     public TreeNode convertBST(TreeNode root) {
-        convert(root);
+        convert(root, 0);
         return root;
     }
 }
