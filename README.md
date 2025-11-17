@@ -361,6 +361,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0129-sum-root-to-leaf-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
+| [0538-convert-bst-to-greater-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0538-convert-bst-to-greater-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -389,6 +390,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0129-sum-root-to-leaf-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
+| [0538-convert-bst-to-greater-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0538-convert-bst-to-greater-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -413,6 +415,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
+| [0538-convert-bst-to-greater-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0538-convert-bst-to-greater-tree) |
 | [0547-number-of-provinces](https://github.com/AmitrajitDas/DSA-CP/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/AmitrajitDas/DSA-CP/tree/master/0684-redundant-connection) |
 | [0685-redundant-connection-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0685-redundant-connection-ii) |
@@ -538,6 +541,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0099-recover-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0538-convert-bst-to-greater-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0538-convert-bst-to-greater-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
