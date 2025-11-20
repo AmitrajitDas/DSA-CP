@@ -364,6 +364,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0538-convert-bst-to-greater-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0538-convert-bst-to-greater-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
+| [1484-linked-list-in-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/AmitrajitDas/DSA-CP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/AmitrajitDas/DSA-CP/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -393,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0538-convert-bst-to-greater-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0538-convert-bst-to-greater-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
+| [1484-linked-list-in-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/AmitrajitDas/DSA-CP/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/AmitrajitDas/DSA-CP/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -427,6 +429,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/AmitrajitDas/DSA-CP/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1484-linked-list-in-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1753-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1753-path-with-minimum-effort) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -585,6 +588,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/AmitrajitDas/DSA-CP/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0859-design-circular-deque](https://github.com/AmitrajitDas/DSA-CP/tree/master/0859-design-circular-deque) |
+| [1484-linked-list-in-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/1484-linked-list-in-binary-tree) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/AmitrajitDas/DSA-CP/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Number Theory
 |  |
