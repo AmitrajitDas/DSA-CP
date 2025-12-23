@@ -362,6 +362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0199-binary-tree-right-side-view](https://github.com/AmitrajitDas/DSA-CP/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
 | [0513-find-bottom-left-tree-value](https://github.com/AmitrajitDas/DSA-CP/tree/master/0513-find-bottom-left-tree-value) |
@@ -397,6 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0199-binary-tree-right-side-view](https://github.com/AmitrajitDas/DSA-CP/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/0404-sum-of-left-leaves) |
 | [0513-find-bottom-left-tree-value](https://github.com/AmitrajitDas/DSA-CP/tree/master/0513-find-bottom-left-tree-value) |
@@ -426,6 +428,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0130-surrounded-regions](https://github.com/AmitrajitDas/DSA-CP/tree/master/0130-surrounded-regions) |
+| [0199-binary-tree-right-side-view](https://github.com/AmitrajitDas/DSA-CP/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/AmitrajitDas/DSA-CP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
@@ -652,6 +655,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/AmitrajitDas/DSA-CP/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/AmitrajitDas/DSA-CP/tree/master/0130-surrounded-regions) |
+| [0199-binary-tree-right-side-view](https://github.com/AmitrajitDas/DSA-CP/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/AmitrajitDas/DSA-CP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0226-invert-binary-tree) |
