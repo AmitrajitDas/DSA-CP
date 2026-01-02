@@ -351,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0099-recover-binary-search-tree) |
+| [0101-symmetric-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -387,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
 | [0098-validate-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0099-recover-binary-search-tree) |
+| [0101-symmetric-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -421,6 +423,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/AmitrajitDas/DSA-CP/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0099-recover-binary-search-tree) |
+| [0101-symmetric-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0101-symmetric-tree) |
 | [0113-path-sum-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/AmitrajitDas/DSA-CP/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/AmitrajitDas/DSA-CP/tree/master/0116-populating-next-right-pointers-in-each-node) |
@@ -648,6 +651,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/AmitrajitDas/DSA-CP/tree/master/0116-populating-next-right-pointers-in-each-node) |
