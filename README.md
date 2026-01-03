@@ -337,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0650-2-keys-keyboard](https://github.com/AmitrajitDas/DSA-CP/tree/master/0650-2-keys-keyboard) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0967-minimum-falling-path-sum) |
+| [1411-number-of-ways-to-paint-n-3-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/AmitrajitDas/DSA-CP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/AmitrajitDas/DSA-CP/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
