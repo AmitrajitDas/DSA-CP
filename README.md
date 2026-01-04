@@ -371,6 +371,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0513-find-bottom-left-tree-value](https://github.com/AmitrajitDas/DSA-CP/tree/master/0513-find-bottom-left-tree-value) |
 | [0538-convert-bst-to-greater-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0538-convert-bst-to-greater-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0919-complete-binary-tree-inserter](https://github.com/AmitrajitDas/DSA-CP/tree/master/0919-complete-binary-tree-inserter) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -409,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0513-find-bottom-left-tree-value](https://github.com/AmitrajitDas/DSA-CP/tree/master/0513-find-bottom-left-tree-value) |
 | [0538-convert-bst-to-greater-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0538-convert-bst-to-greater-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0919-complete-binary-tree-inserter](https://github.com/AmitrajitDas/DSA-CP/tree/master/0919-complete-binary-tree-inserter) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -562,6 +564,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0731-my-calendar-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/AmitrajitDas/DSA-CP/tree/master/0859-design-circular-deque) |
+| [0919-complete-binary-tree-inserter](https://github.com/AmitrajitDas/DSA-CP/tree/master/0919-complete-binary-tree-inserter) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/AmitrajitDas/DSA-CP/tree/master/1497-design-a-stack-with-increment-operation) |
 ## Binary Search Tree
 |  |
@@ -680,6 +683,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/AmitrajitDas/DSA-CP/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/AmitrajitDas/DSA-CP/tree/master/0820-find-eventual-safe-states) |
+| [0919-complete-binary-tree-inserter](https://github.com/AmitrajitDas/DSA-CP/tree/master/0919-complete-binary-tree-inserter) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/AmitrajitDas/DSA-CP/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
