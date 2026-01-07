@@ -375,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/1254-deepest-leaves-sum) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/AmitrajitDas/DSA-CP/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1484-linked-list-in-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/1484-linked-list-in-binary-tree) |
@@ -414,6 +415,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/AmitrajitDas/DSA-CP/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/1254-deepest-leaves-sum) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/AmitrajitDas/DSA-CP/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1484-linked-list-in-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/1484-linked-list-in-binary-tree) |
@@ -455,6 +457,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0988-flip-equivalent-binary-trees) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1254-deepest-leaves-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/1254-deepest-leaves-sum) |
 | [1325-delete-leaves-with-a-given-value](https://github.com/AmitrajitDas/DSA-CP/tree/master/1325-delete-leaves-with-a-given-value) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/AmitrajitDas/DSA-CP/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -687,6 +690,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/AmitrajitDas/DSA-CP/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1254-deepest-leaves-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/1254-deepest-leaves-sum) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/AmitrajitDas/DSA-CP/tree/master/1442-number-of-operations-to-make-network-connected) |
