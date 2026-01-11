@@ -23,21 +23,36 @@ class Solution {
 
         // return calculateLength(0, -1, nums, dp);
 
-        int[][] dp = new int[n + 1][n + 1];
+        // int[][] dp = new int[n + 1][n + 1];
 
-        for(int idx = n - 1; idx >= 0; idx--) {
-            for(int prevIdx = idx - 1; prevIdx >= -1; prevIdx--) {
-                int take = 0;
-                if(prevIdx == -1 || nums[idx] > nums[prevIdx]) {
-                    take = 1 + dp[idx + 1][idx + 1];
-                }
+        // for(int idx = n - 1; idx >= 0; idx--) {
+        //     for(int prevIdx = idx - 1; prevIdx >= -1; prevIdx--) {
+        //         int take = 0;
+        //         if(prevIdx == -1 || nums[idx] > nums[prevIdx]) {
+        //             take = 1 + dp[idx + 1][idx + 1];
+        //         }
                 
-                int skip = dp[idx + 1][prevIdx + 1];
+        //         int skip = dp[idx + 1][prevIdx + 1];
 
-                dp[idx][prevIdx + 1] = Math.max(take, skip);
+        //         dp[idx][prevIdx + 1] = Math.max(take, skip);
+        //     }
+        // }
+
+        // return dp[0][0];
+
+        int[] dp = new int[n];
+        Arrays.fill(dp, 1);  // Each element is an LIS of length 1
+        
+        int maxLen = 1;
+        for(int i = 1; i < n; i++) {
+            for(int j = 0; j < i; j++) {
+                if(nums[i] > nums[j]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+                }
             }
+            maxLen = Math.max(maxLen, dp[i]);
         }
-
-        return dp[0][0];
+        
+        return maxLen;
     }
 }
