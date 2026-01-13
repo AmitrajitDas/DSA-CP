@@ -338,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0474-ones-and-zeroes](https://github.com/AmitrajitDas/DSA-CP/tree/master/0474-ones-and-zeroes) |
 | [0542-01-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/0542-01-matrix) |
 | [0650-2-keys-keyboard](https://github.com/AmitrajitDas/DSA-CP/tree/master/0650-2-keys-keyboard) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/AmitrajitDas/DSA-CP/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0967-minimum-falling-path-sum) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
@@ -490,6 +491,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/AmitrajitDas/DSA-CP/tree/master/0127-word-ladder) |
 | [0273-integer-to-english-words](https://github.com/AmitrajitDas/DSA-CP/tree/master/0273-integer-to-english-words) |
 | [0474-ones-and-zeroes](https://github.com/AmitrajitDas/DSA-CP/tree/master/0474-ones-and-zeroes) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/AmitrajitDas/DSA-CP/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0721-accounts-merge](https://github.com/AmitrajitDas/DSA-CP/tree/master/0721-accounts-merge) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/AmitrajitDas/DSA-CP/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1304-longest-happy-string](https://github.com/AmitrajitDas/DSA-CP/tree/master/1304-longest-happy-string) |
