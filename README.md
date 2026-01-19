@@ -117,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1333-sort-the-jumbled-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/1333-sort-the-jumbled-numbers) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/AmitrajitDas/DSA-CP/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1435-xor-queries-of-a-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/1435-xor-queries-of-a-subarray) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/AmitrajitDas/DSA-CP/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/AmitrajitDas/DSA-CP/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1524-string-matching-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/1524-string-matching-in-an-array) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -343,6 +344,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0967-minimum-falling-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0967-minimum-falling-path-sum) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/AmitrajitDas/DSA-CP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/AmitrajitDas/DSA-CP/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/AmitrajitDas/DSA-CP/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/AmitrajitDas/DSA-CP/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
