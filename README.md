@@ -334,6 +334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0264-ugly-number-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/AmitrajitDas/DSA-CP/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/AmitrajitDas/DSA-CP/tree/master/0322-coin-change) |
+| [0397-integer-replacement](https://github.com/AmitrajitDas/DSA-CP/tree/master/0397-integer-replacement) |
 | [0410-split-array-largest-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/AmitrajitDas/DSA-CP/tree/master/0474-ones-and-zeroes) |
@@ -537,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/AmitrajitDas/DSA-CP/tree/master/0011-container-with-most-water) |
+| [0397-integer-replacement](https://github.com/AmitrajitDas/DSA-CP/tree/master/0397-integer-replacement) |
 | [0410-split-array-largest-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0410-split-array-largest-sum) |
 | [0624-maximum-distance-in-arrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/0624-maximum-distance-in-arrays) |
 | [0670-maximum-swap](https://github.com/AmitrajitDas/DSA-CP/tree/master/0670-maximum-swap) |
@@ -615,6 +617,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0137-single-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0137-single-number-ii) |
 | [0231-power-of-two](https://github.com/AmitrajitDas/DSA-CP/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0260-single-number-iii) |
+| [0397-integer-replacement](https://github.com/AmitrajitDas/DSA-CP/tree/master/0397-integer-replacement) |
 | [0476-number-complement](https://github.com/AmitrajitDas/DSA-CP/tree/master/0476-number-complement) |
 | [1054-complement-of-base-10-integer](https://github.com/AmitrajitDas/DSA-CP/tree/master/1054-complement-of-base-10-integer) |
 | [1435-xor-queries-of-a-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/1435-xor-queries-of-a-subarray) |
@@ -767,6 +770,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Memoization
 |  |
 | ------- |
+| [0397-integer-replacement](https://github.com/AmitrajitDas/DSA-CP/tree/master/0397-integer-replacement) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/AmitrajitDas/DSA-CP/tree/master/1986-largest-color-value-in-a-directed-graph) |
 ## Combinatorics
 |  |
