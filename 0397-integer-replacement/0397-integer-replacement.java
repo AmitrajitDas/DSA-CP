@@ -2,6 +2,7 @@ class Solution {
     public int integerReplacement(int n) {
         long num = n; //overflow avoid to safe
         int steps = 0;
+        
         while(num != 1) {
             if ((num & 1) == 0) {
                 num >>= 1; //even number
@@ -14,7 +15,8 @@ class Solution {
                 }
             }
                 steps++;
-            }
-            return steps;
+        }
+
+        return steps;
     }
 }
