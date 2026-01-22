@@ -1,25 +1,20 @@
 class Solution {
-    Map<Long, Integer> dp = new HashMap<>();
-
-    private int helper(long n) {
-        if(n == 1) return 0;
-        if(dp.containsKey(n)) return dp.get(n);
-        
-        int result;
-        if(n % 2 == 0) {
-            result = 1 + helper(n / 2);
-        } else {
-            if(n != 3 && ((n + 1) % 4) == 0) {
-                result = 1 + helper(n + 1);
-            } else {
-                result = 1 + helper(n - 1);
-            }
-        }
-        
-        dp.put(n, result);
-        return result;
-    }
     public int integerReplacement(int n) {
-        return helper((long) n);
+        long num = n; //overflow avoid to safe
+        int steps = 0;
+        while(num != 1) {
+            if ((num & 1) == 0) {
+                num >>= 1; //even number
+            } else {
+               //odd number
+                if (num == 3 || (num & 3) == 1) {
+                    num--;
+                } else {
+                    num++; 
+                }
+            }
+                steps++;
+            }
+            return steps;
     }
 }
