@@ -1,6 +1,7 @@
 class Solution {
     private double solve(double x, long n) {
-        if(n == 1) return x;
+        if(n == 0) return 1; 
+        // if(n == 1) return x;
         if(n < 0) {
             return solve(1/x, -n);
         }
