@@ -265,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0650-2-keys-keyboard](https://github.com/AmitrajitDas/DSA-CP/tree/master/0650-2-keys-keyboard) |
 | [0670-maximum-swap](https://github.com/AmitrajitDas/DSA-CP/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/0870-magic-squares-in-grid) |
+| [1922-count-good-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/1922-count-good-numbers) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/2050-count-good-numbers) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/AmitrajitDas/DSA-CP/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
@@ -276,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0050-powx-n](https://github.com/AmitrajitDas/DSA-CP/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/AmitrajitDas/DSA-CP/tree/master/0231-power-of-two) |
 | [0273-integer-to-english-words](https://github.com/AmitrajitDas/DSA-CP/tree/master/0273-integer-to-english-words) |
+| [1922-count-good-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/1922-count-good-numbers) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/2050-count-good-numbers) |
 ## Queue
