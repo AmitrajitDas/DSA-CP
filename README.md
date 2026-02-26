@@ -260,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0029-divide-two-integers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/AmitrajitDas/DSA-CP/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/AmitrajitDas/DSA-CP/tree/master/0062-unique-paths) |
+| [0089-gray-code](https://github.com/AmitrajitDas/DSA-CP/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
 | [0231-power-of-two](https://github.com/AmitrajitDas/DSA-CP/tree/master/0231-power-of-two) |
 | [0264-ugly-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0264-ugly-number-ii) |
@@ -618,6 +619,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/AmitrajitDas/DSA-CP/tree/master/0079-word-search) |
+| [0089-gray-code](https://github.com/AmitrajitDas/DSA-CP/tree/master/0089-gray-code) |
 | [0095-unique-binary-search-trees-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0095-unique-binary-search-trees-ii) |
 | [0113-path-sum-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0113-path-sum-ii) |
 | [0126-word-ladder-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0126-word-ladder-ii) |
@@ -627,6 +629,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0029-divide-two-integers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/0078-subsets) |
+| [0089-gray-code](https://github.com/AmitrajitDas/DSA-CP/tree/master/0089-gray-code) |
 | [0137-single-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0137-single-number-ii) |
 | [0187-repeated-dna-sequences](https://github.com/AmitrajitDas/DSA-CP/tree/master/0187-repeated-dna-sequences) |
 | [0231-power-of-two](https://github.com/AmitrajitDas/DSA-CP/tree/master/0231-power-of-two) |
