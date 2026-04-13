@@ -265,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/AmitrajitDas/DSA-CP/tree/master/0012-integer-to-roman) |
 | [0029-divide-two-integers](https://github.com/AmitrajitDas/DSA-CP/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/AmitrajitDas/DSA-CP/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/AmitrajitDas/DSA-CP/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/AmitrajitDas/DSA-CP/tree/master/0062-unique-paths) |
 | [0089-gray-code](https://github.com/AmitrajitDas/DSA-CP/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/AmitrajitDas/DSA-CP/tree/master/0096-unique-binary-search-trees) |
@@ -284,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0010-regular-expression-matching](https://github.com/AmitrajitDas/DSA-CP/tree/master/0010-regular-expression-matching) |
 | [0050-powx-n](https://github.com/AmitrajitDas/DSA-CP/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/AmitrajitDas/DSA-CP/tree/master/0060-permutation-sequence) |
 | [0231-power-of-two](https://github.com/AmitrajitDas/DSA-CP/tree/master/0231-power-of-two) |
 | [0273-integer-to-english-words](https://github.com/AmitrajitDas/DSA-CP/tree/master/0273-integer-to-english-words) |
 | [1922-count-good-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/1922-count-good-numbers) |
