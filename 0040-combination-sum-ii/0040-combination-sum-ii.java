@@ -1,12 +1,12 @@
 class Solution {
-    private void findCombination(int ind, int target, int[] arr, List<List<Integer>> ans, List<Integer> ds) {
+    private void findCombination(int idx, int target, int[] arr, List<List<Integer>> ans, List<Integer> ds) {
         if (target == 0) {
             ans.add(new ArrayList<>(ds));
             return;
         }
 
-        for (int i = ind; i < arr.length; i++) {
-            if (i > ind && arr[i] == arr[i - 1])
+        for (int i = idx; i < arr.length; i++) {
+            if (i > idx && arr[i] == arr[i - 1])
                 continue; // Skip duplicates
             if (arr[i] > target)
                 break; // No point in continuing if arr[i] exceeds target
