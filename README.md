@@ -480,6 +480,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0685-redundant-connection-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0685-redundant-connection-ii) |
 | [0721-accounts-merge](https://github.com/AmitrajitDas/DSA-CP/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/AmitrajitDas/DSA-CP/tree/master/0743-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/AmitrajitDas/DSA-CP/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/AmitrajitDas/DSA-CP/tree/master/0820-find-eventual-safe-states) |
@@ -537,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0264-ugly-number-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0264-ugly-number-ii) |
+| [0743-network-delay-time](https://github.com/AmitrajitDas/DSA-CP/tree/master/0743-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/AmitrajitDas/DSA-CP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/0948-sort-an-array) |
@@ -732,6 +734,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0685-redundant-connection-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0685-redundant-connection-ii) |
 | [0721-accounts-merge](https://github.com/AmitrajitDas/DSA-CP/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/AmitrajitDas/DSA-CP/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/AmitrajitDas/DSA-CP/tree/master/0743-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/AmitrajitDas/DSA-CP/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/AmitrajitDas/DSA-CP/tree/master/0820-find-eventual-safe-states) |
@@ -801,6 +804,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/AmitrajitDas/DSA-CP/tree/master/0743-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/AmitrajitDas/DSA-CP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -831,4 +835,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/AmitrajitDas/DSA-CP/tree/master/0187-repeated-dna-sequences) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/AmitrajitDas/DSA-CP/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+## Graph Theory
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/AmitrajitDas/DSA-CP/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
