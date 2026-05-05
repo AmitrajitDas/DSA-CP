@@ -1,32 +1,34 @@
-class Solution {
-    private int[] roww = {0, 0, -1, 1};
-    private int[] coll = {-1, 1, 0, 0};
+import java.util.*;
 
-    private void bfs(List<List<Integer>> grid, int[][] score, int n) {
+class Solution {
+    private int[] drow = {0, 0, -1, 1};
+    private int[] dcol = {-1, 1, 0, 0};
+
+    private void bfs(List<List<Integer>> grid, int[][] safeness, int n) {
         Queue<int[]> q = new LinkedList<>();
 
         // entry point for multisource bfs should be the thieves
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid.get(i).get(j) == 1) {
-                    score[i][j] = 0;
+                    safeness[i][j] = 0;
                     q.offer(new int[]{i, j});
                 }
             }
         }
 
         while (!q.isEmpty()) {
-            int[] t = q.poll();
-            int x = t[0], y = t[1];
-            int s = score[x][y];
+            int[] curr = q.poll();
+            int row = curr[0], col = curr[1];
+            int currSafeness = safeness[row][col];
 
             for (int i = 0; i < 4; i++) {
-                int newX = x + roww[i];
-                int newY = y + coll[i];
+                int nrow = row + drow[i];
+                int ncol = col + dcol[i];
 
-                if (newX >= 0 && newX < n && newY >= 0 && newY < n && score[newX][newY] > 1 + s) {
-                    score[newX][newY] = 1 + s;
-                    q.offer(new int[]{newX, newY});
+                if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < n && safeness[nrow][ncol] > currSafeness + 1) {
+                    safeness[nrow][ncol] = currSafeness + 1;
+                    q.offer(new int[]{nrow, ncol});
                 }
             }
         }
@@ -38,34 +40,39 @@ class Solution {
             return 0;
         }
 
-        int[][] score = new int[n][n];
-        for (int[] row : score) Arrays.fill(row, Integer.MAX_VALUE);
+        int[][] safeness = new int[n][n];
+        for (int[] row : safeness) Arrays.fill(row, Integer.MAX_VALUE);
+        bfs(grid, safeness, n);
 
-        bfs(grid, score, n);
-
-        boolean[][] vis = new boolean[n][n];
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[0] - a[0]);
-        pq.offer(new int[]{score[0][0], 0, 0});
+        pq.offer(new int[]{safeness[0][0], 0, 0});
+        
+        // Add a vis array to prevent infinite cycles
+        boolean[][] vis = new boolean[n][n];
 
         while (!pq.isEmpty()) {
-            int[] temp = pq.poll();
-            int safe = temp[0];
-            int i = temp[1], j = temp[2];
+            int[] curr = pq.poll();
+            int currSafeness = curr[0];
+            int row = curr[1], col = curr[2];
             
-            // if its the last cell then we've found the ans
-            if (i == n - 1 && j == n - 1) return safe;
-            vis[i][j] = true;
+            // if it's the last cell, we've found the answer
+            if (row == n - 1 && col == n - 1) {
+                return currSafeness;
+            }
 
-            for (int k = 0; k < 4; k++) {
-                int newX = i + roww[k];
-                int newY = j + coll[k];
+            // Skip if we've already processed this cell with a higher or equal safeness
+            if (vis[row][col]) {
+                continue;
+            }
+            vis[row][col] = true;
 
-                // we enqueue its unvisited neighbors with the minimum of the current safeness factor 
-                // and the neighbor's safeness factor
-                if (newX >= 0 && newX < n && newY >= 0 && newY < n && !vis[newX][newY]) {
-                    int s = Math.min(safe, score[newX][newY]);
-                    pq.offer(new int[]{s, newX, newY});
-                    vis[newX][newY] = true;
+            for (int i = 0; i < 4; i++) {
+                int nrow = row + drow[i];
+                int ncol = col + dcol[i];
+
+                if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < n && !vis[nrow][ncol]) {
+                    int s = Math.min(currSafeness, safeness[nrow][ncol]);
+                    pq.offer(new int[]{s, nrow, ncol});
                 }
             }
         }
