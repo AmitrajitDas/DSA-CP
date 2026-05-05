@@ -159,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2685-first-completely-painted-row-or-column](https://github.com/AmitrajitDas/DSA-CP/tree/master/2685-first-completely-painted-row-or-column) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/AmitrajitDas/DSA-CP/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/AmitrajitDas/DSA-CP/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 ## Hash Table
@@ -242,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2586-longest-square-streak-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2586-longest-square-streak-in-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/AmitrajitDas/DSA-CP/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/AmitrajitDas/DSA-CP/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Sorting
 |  |
 | ------- |
@@ -555,6 +557,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1631-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1753-path-with-minimum-effort) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/AmitrajitDas/DSA-CP/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Merge Sort
 |  |
 | ------- |
@@ -611,6 +614,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2145-grid-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/2145-grid-game) |
 | [2685-first-completely-painted-row-or-column](https://github.com/AmitrajitDas/DSA-CP/tree/master/2685-first-completely-painted-row-or-column) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Design
 |  |
 | ------- |
@@ -764,6 +768,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/AmitrajitDas/DSA-CP/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/AmitrajitDas/DSA-CP/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Union Find
 |  |
@@ -863,4 +868,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1631-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1631-path-with-minimum-effort) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2812-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->
