@@ -151,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2478-longest-nice-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/2478-longest-nice-subarray) |
 | [2502-sort-the-people](https://github.com/AmitrajitDas/DSA-CP/tree/master/2502-sort-the-people) |
 | [2551-apply-operations-to-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2551-apply-operations-to-an-array) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/AmitrajitDas/DSA-CP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/AmitrajitDas/DSA-CP/tree/master/2586-longest-square-streak-in-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/AmitrajitDas/DSA-CP/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -556,6 +557,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1514-path-with-maximum-probability](https://github.com/AmitrajitDas/DSA-CP/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1753-path-with-minimum-effort) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/AmitrajitDas/DSA-CP/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Merge Sort
@@ -612,6 +614,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1876-map-of-highest-peak](https://github.com/AmitrajitDas/DSA-CP/tree/master/1876-map-of-highest-peak) |
 | [2047-find-a-peak-element-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2047-find-a-peak-element-ii) |
 | [2145-grid-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/2145-grid-game) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2685-first-completely-painted-row-or-column](https://github.com/AmitrajitDas/DSA-CP/tree/master/2685-first-completely-painted-row-or-column) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -766,6 +769,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/AmitrajitDas/DSA-CP/tree/master/1876-map-of-highest-peak) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/AmitrajitDas/DSA-CP/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -830,6 +834,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1514-path-with-maximum-probability](https://github.com/AmitrajitDas/DSA-CP/tree/master/1514-path-with-maximum-probability) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Memoization
 |  |
 | ------- |
@@ -864,6 +869,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/AmitrajitDas/DSA-CP/tree/master/1514-path-with-maximum-probability) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Union-Find
 |  |
 | ------- |
