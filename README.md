@@ -777,6 +777,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1631-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1753-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/AmitrajitDas/DSA-CP/tree/master/1876-map-of-highest-peak) |
+| [2045-second-minimum-time-to-reach-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/2045-second-minimum-time-to-reach-destination) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AmitrajitDas/DSA-CP/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/AmitrajitDas/DSA-CP/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -843,6 +844,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/AmitrajitDas/DSA-CP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1514-path-with-maximum-probability](https://github.com/AmitrajitDas/DSA-CP/tree/master/1514-path-with-maximum-probability) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2045-second-minimum-time-to-reach-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/2045-second-minimum-time-to-reach-destination) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AmitrajitDas/DSA-CP/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -880,6 +882,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-cheapest-flights-within-k-stops](https://github.com/AmitrajitDas/DSA-CP/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/AmitrajitDas/DSA-CP/tree/master/1514-path-with-maximum-probability) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2045-second-minimum-time-to-reach-destination](https://github.com/AmitrajitDas/DSA-CP/tree/master/2045-second-minimum-time-to-reach-destination) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/AmitrajitDas/DSA-CP/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Union-Find
