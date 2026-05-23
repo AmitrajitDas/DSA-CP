@@ -1,28 +1,23 @@
+import java.util.HashSet;
+import java.util.Set;
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();
-        int left = 0, right = 0, maxLen = 0;
-        // Use Set<Character> to store characters, not integers
-        Set<Character> charSet = new HashSet<>();
-        
-        // Sliding window approach using two pointers
-        while (right < n) {
-            char currentChar = s.charAt(right);
-            
-            // If current character is already in the window, shrink from left
-            if (charSet.contains(currentChar)) {
-                // Remove characters from left until the duplicate is removed
-                charSet.remove(s.charAt(left));
-                left++;
+        int i = 0, j = 0, maxLen = 0;
+        Set<Character> set = new HashSet<>();
+
+        while (j < n) {
+            char currChar = s.charAt(j);
+            if (!set.contains(currChar)) {
+                set.add(currChar);
+                maxLen = Math.max(maxLen, j - i + 1);
+                j++; // Only move right pointer when we successfully expand
             } else {
-                // Add current character to the set and expand window
-                charSet.add(currentChar);
-                right++;
-                // Update maximum length found so far
-                maxLen = Math.max(maxLen, charSet.size());
+                set.remove(s.charAt(i));
+                i++; // Shrink window from left until duplicate is gone
             }
         }
-        
         return maxLen;
     }
 }
