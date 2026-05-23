@@ -9,13 +9,13 @@ class Solution {
 
         while (j < n) {
             char currChar = s.charAt(j);
-            if (!set.contains(currChar)) {
+            if (set.contains(currChar)) {
+                set.remove(s.charAt(i));
+                i++; // Shrink window from left until duplicate is gone
+            } else {
                 set.add(currChar);
                 maxLen = Math.max(maxLen, j - i + 1);
                 j++; // Only move right pointer when we successfully expand
-            } else {
-                set.remove(s.charAt(i));
-                i++; // Shrink window from left until duplicate is gone
             }
         }
         return maxLen;
