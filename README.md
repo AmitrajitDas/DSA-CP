@@ -123,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/AmitrajitDas/DSA-CP/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/AmitrajitDas/DSA-CP/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/AmitrajitDas/DSA-CP/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/1248-count-number-of-nice-subarrays) |
 | [1333-sort-the-jumbled-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/1333-sort-the-jumbled-numbers) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/AmitrajitDas/DSA-CP/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AmitrajitDas/DSA-CP/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
@@ -193,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-fruit-into-baskets](https://github.com/AmitrajitDas/DSA-CP/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0930-binary-subarrays-with-sum) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/AmitrajitDas/DSA-CP/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/AmitrajitDas/DSA-CP/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
@@ -297,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0650-2-keys-keyboard](https://github.com/AmitrajitDas/DSA-CP/tree/master/0650-2-keys-keyboard) |
 | [0670-maximum-swap](https://github.com/AmitrajitDas/DSA-CP/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/0870-magic-squares-in-grid) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/1248-count-number-of-nice-subarrays) |
 | [1922-count-good-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/1922-count-good-numbers) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/AmitrajitDas/DSA-CP/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/AmitrajitDas/DSA-CP/tree/master/2050-count-good-numbers) |
@@ -727,6 +730,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0731-my-calendar-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0731-my-calendar-ii) |
 | [0930-binary-subarrays-with-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AmitrajitDas/DSA-CP/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1435-xor-queries-of-a-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/1435-xor-queries-of-a-subarray) |
 | [1694-make-sum-divisible-by-p](https://github.com/AmitrajitDas/DSA-CP/tree/master/1694-make-sum-divisible-by-p) |
@@ -852,6 +856,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-fruit-into-baskets](https://github.com/AmitrajitDas/DSA-CP/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/AmitrajitDas/DSA-CP/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/AmitrajitDas/DSA-CP/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AmitrajitDas/DSA-CP/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/AmitrajitDas/DSA-CP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
