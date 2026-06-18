@@ -1,26 +1,26 @@
 class Solution {
-    private void findCombination(int idx, int target, int[] arr, List<List<Integer>> ans, List<Integer> ds) {
-        if (target == 0) {
-            ans.add(new ArrayList<>(ds));
+    private void backtrack(int[] candidates, int remain, int start, List<Integer> path, List<List<Integer>> result) {
+        if (remain == 0) {
+            result.add(new ArrayList<>(path));
             return;
         }
 
-        for (int i = idx; i < arr.length; i++) {
-            if (i > idx && arr[i] == arr[i - 1])
-                continue; // Skip duplicates
-            if (arr[i] > target)
-                break; // No point in continuing if arr[i] exceeds target
-            ds.add(arr[i]);
-            findCombination(i + 1, target - arr[i], arr, ans, ds);
-            ds.remove(ds.size() - 1); // Backtrack
+        if (remain < 0) return;
+        
+        for (int i = start; i < candidates.length; i++) {
+            if(i > start && candidates[i] == candidates[i - 1]) continue;
+            if(candidates[i] > remain) break;
+            path.add(candidates[i]);
+            // i, not i+1 — same element can be reused
+            backtrack(candidates, remain - candidates[i], i + 1, path, result);
+            path.remove(path.size() - 1);
         }
     }
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        Arrays.sort(candidates); // Sort to handle duplicates and early stopping
-        List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> ds = new ArrayList<>();
-        findCombination(0, target, candidates, ans, ds);
-        return ans;
+        Arrays.sort(candidates);
+        List<List<Integer>> result = new ArrayList<>();
+        backtrack(candidates, target, 0, new ArrayList<>(), result);
+        return result;
     }
 }
