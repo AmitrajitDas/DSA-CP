@@ -1,23 +1,23 @@
 class Solution {
-    private void genCombos(int i, int target, List<Integer> curr, List<List<Integer>> res, int[] candidates) {
-        if(i == candidates.length) {
-            if(target == 0) res.add(new ArrayList<>(curr));
-            return;    
+    private void backtrack(int[] candidates, int remain, int start, List<Integer> path, List<List<Integer>> result) {
+        if (remain == 0) {
+            result.add(new ArrayList<>(path));
+            return;
         }
 
-        if(candidates[i] <= target) {
-            curr.add(candidates[i]);
-            genCombos(i, target - candidates[i], curr, res, candidates);
-            curr.remove(curr.size() - 1);
-        }
+        if (remain < 0) return;
         
-        genCombos(i + 1, target, curr, res, candidates);
+        for (int i = start; i < candidates.length; i++) {
+            path.add(candidates[i]);
+            // i, not i+1 — same element can be reused
+            backtrack(candidates, remain - candidates[i], i, path, result);
+            path.remove(path.size() - 1);
+        }
     }
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> res = new ArrayList<>();
-        List<Integer> curr = new ArrayList<>();
-        genCombos(0, target, curr, res, candidates);
-        return res;
+        List<List<Integer>> result = new ArrayList<>();
+        backtrack(candidates, target, 0, new ArrayList<>(), result);
+        return result;
     }
 }
