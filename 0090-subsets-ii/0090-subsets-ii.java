@@ -1,19 +1,19 @@
 class Solution {
-    private void backtrack(int idx, List<Integer> curr, List<List<Integer>> res, int[] nums) {
+    private void backtrack(int start, List<Integer> curr, int[] nums, List<List<Integer>> res) {
+        // snapshot current subset at every node (not just leaves)
         res.add(new ArrayList<>(curr));
 
-        for(int i = idx; i < nums.length; i++) {
-            if(i > idx && nums[i] == nums[i - 1]) continue;
-            curr.add(nums[i]);
-            backtrack(i + 1, curr, res, nums);
-            curr.remove(curr.size() - 1);
+        for (int i = start; i < nums.length; i++) {
+            if(i > start && nums[i] == nums[i - 1]) continue;
+            curr.add(nums[i]);              // choose
+            backtrack(i + 1, curr, nums, res);  // explore (i+1 to avoid re-picking same element)
+            curr.remove(curr.size() - 1);   // unchoose
         }
     }
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
-        List<Integer> curr = new ArrayList<>();
         Arrays.sort(nums);
-        backtrack(0, curr, res, nums);
+        List<List<Integer>> res = new ArrayList<>();
+        backtrack(0, new ArrayList<>(), nums, res);
         return res;
     }
 }
