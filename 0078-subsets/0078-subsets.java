@@ -1,19 +1,18 @@
 class Solution {
-    public List<List<Integer>> subsets(int[] nums) {
-        int n = nums.length, subsets = 1 << n;
-        List<List<Integer>> res = new ArrayList<>();
+    private void backtrack(int start, List<Integer> curr, int[] nums, List<List<Integer>> res) {
+        res.add(new ArrayList<>(curr));
 
-        for (int i = 0; i < subsets; i++) {
-            List<Integer> ds = new ArrayList<>();
-            for (int j = 0; j < n; j++) {
-                // Check if the j-th bit in i is set, meaning nums[j] should be included in this subset
-                if ((i & (1 << j)) != 0) {
-                    ds.add(nums[j]);
-                }
-            }
-            res.add(ds);
+        for(int i = start; i < nums.length; i++) {
+            curr.add(nums[i]);
+            backtrack(i + 1, curr, nums, res);
+            curr.remove(curr.size() - 1);
         }
+    }
 
+    public List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> curr = new ArrayList<>();
+        backtrack(0, curr, nums, res);
         return res;
     }
 }
