@@ -74,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/AmitrajitDas/DSA-CP/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0047-permutations-ii) |
+| [0051-n-queens](https://github.com/AmitrajitDas/DSA-CP/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/AmitrajitDas/DSA-CP/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0064-minimum-path-sum) |
@@ -679,6 +680,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/AmitrajitDas/DSA-CP/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/AmitrajitDas/DSA-CP/tree/master/0047-permutations-ii) |
+| [0051-n-queens](https://github.com/AmitrajitDas/DSA-CP/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/AmitrajitDas/DSA-CP/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/AmitrajitDas/DSA-CP/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/AmitrajitDas/DSA-CP/tree/master/0079-word-search) |
