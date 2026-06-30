@@ -1,80 +1,48 @@
 class Solution {
-    private Set<Character>[] rows;
-    private Set<Character>[] cols;
-    private Set<Character>[] boxes;
+    private boolean[][] rows = new boolean[9][9]; // rows[r][d] = digit d used in row r
+    private boolean[][] cols = new boolean[9][9]; // cols[c][d] = digit d used in col c
+    private boolean[][] boxes = new boolean[9][9]; // boxes[b][d] = digit d used in box b
 
-    private boolean isValid(int row, int col, char num) {
-        int boxIndex = (row / 3) * 3 + (col / 3);
-        return !rows[row].contains(num) &&
-                !cols[col].contains(num) &&
-                !boxes[boxIndex].contains(num);
+    private int boxIndex(int row, int col) {
+        return (row / 3) * 3 + (col / 3);
     }
 
-    private boolean backtrack(char[][] board) {
-        // Find next empty cell
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                if (board[i][j] == '.') {
-                    int boxIndex = (i / 3) * 3 + (j / 3);
+    private boolean backtrack(int row, int col, char[][] board) {
+        int n = board.length;
+        if (row == n) return true;
 
-                    // Try numbers 1-9
-                    for (char num = '1'; num <= '9'; num++) {
-                        if (isValid(i, j, num)) {
-                            // Place number
-                            board[i][j] = num;
-                            rows[i].add(num);
-                            cols[j].add(num);
-                            boxes[boxIndex].add(num);
+        int nextRow = col == n - 1 ? row + 1 : row;
+        int nextCol = col == n - 1 ? 0 : col + 1;
 
-                            // Recurse
-                            if (backtrack(board)) {
-                                return true;
-                            }
+        if (board[row][col] != '.') return backtrack(nextRow, nextCol, board);
 
-                            // Backtrack - remove number
-                            board[i][j] = '.';
-                            rows[i].remove(num);
-                            cols[j].remove(num);
-                            boxes[boxIndex].remove(num);
-                        }
-                    }
+        int b = boxIndex(row, col);
+        for (int digit = 1; digit <= 9; digit++) {
+            int d = digit - 1; // 0-indexed for arrays
+            if (!rows[row][d] && !cols[col][d] && !boxes[b][d]) {
+                board[row][col] = (char) (digit + '0');
+                rows[row][d] = cols[col][d] = boxes[b][d] = true;
 
-                    // No valid number found for this cell
-                    return false;
-                }
+                if (backtrack(nextRow, nextCol, board)) return true;
+
+                board[row][col] = '.';
+                rows[row][d] = cols[col][d] = boxes[b][d] = false;
             }
         }
 
-        // All cells filled successfully
-        return true;
+        return false;
     }
 
     public void solveSudoku(char[][] board) {
-        // Initialize sets as class variables
-        rows = new HashSet[9];
-        cols = new HashSet[9];
-        boxes = new HashSet[9];
-
-        for (int i = 0; i < 9; i++) {
-            rows[i] = new HashSet<>();
-            cols[i] = new HashSet<>();
-            boxes[i] = new HashSet<>();
-        }
-
-        // Fill sets with existing numbers
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                if (board[i][j] != '.') {
-                    char num = board[i][j];
-                    int boxIndex = (i / 3) * 3 + (j / 3);
-                    rows[i].add(num);
-                    cols[j].add(num);
-                    boxes[boxIndex].add(num);
+        for (int r = 0; r < 9; r++) {
+            for (int c = 0; c < 9; c++) {
+                if (board[r][c] != '.') {
+                    int d = board[r][c] - '1';
+                    int b = boxIndex(r, c);
+                    rows[r][d] = cols[c][d] = boxes[b][d] = true;
                 }
             }
         }
-
-        backtrack(board);
+        backtrack(0, 0, board);
     }
-
 }
