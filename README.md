@@ -930,4 +930,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-swim-in-rising-water](https://github.com/AmitrajitDas/DSA-CP/tree/master/0778-swim-in-rising-water) |
 | [1631-path-with-minimum-effort](https://github.com/AmitrajitDas/DSA-CP/tree/master/1631-path-with-minimum-effort) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/AmitrajitDas/DSA-CP/tree/master/2812-find-the-safest-path-in-a-grid) |
+## DP on Trees
+|  |
+| ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/AmitrajitDas/DSA-CP/tree/master/0124-binary-tree-maximum-path-sum) |
 <!---LeetCode Topics End-->
